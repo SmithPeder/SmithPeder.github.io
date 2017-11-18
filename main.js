@@ -30,7 +30,7 @@ function printQuestion() {
 //Generate new question
 function chooseQuestion() {
   //Reset if all questions are asked
-  if (asked.length == 3) {
+  if (asked.length == questions.length) {
     asked = [];
   }
   //Get random question
@@ -73,7 +73,7 @@ function chooseAnswer(self, answer) {
     questionDiv.getElementsByTagName("button")[
       questions[questionNum].correctAnswer - 1
     ].style.background =
-      "#aed581";
+      "#1EBC61";
   }
   //Make all buttons have no onClick events
   for (i = 0; i < questionDiv.getElementsByTagName("button").length; i++) {
@@ -90,13 +90,11 @@ nextButton.onclick = function() {
 
 //Get new scores
 function updateScores() {
-  //Calculate score
-  let scorePercent = Math.round(100 * (right - wrong) / asked.length, 2);
   //Get stats
   scoresDiv.getElementsByTagName("span")[0].innerHTML = right;
   scoresDiv.getElementsByTagName("span")[1].innerHTML = wrong;
   scoresDiv.getElementsByTagName("span")[2].innerHTML =
-    right - 0.5 * wrong + "/" + asked.length + "(" + scorePercent + "%)";
+    right + "/" + asked.length + " (" + (right - wrong) + " poeng)";
   scoresDiv.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: Helvetica;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -14,18 +14,22 @@ body {
   min-width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #acbac9;
+  background: #5c6a79;
   outline: none;
+  color: #ecf0f1;
   border: none;
   margin-top: 5px;
   margin-bottom: 5px;
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: 0.2s; /* Safari */
+  transition: 0.2s;
 }
 
 #nextButton {
-  background: #19b5fe;
+  background: #3498db;
   outline: none;
   border: none;
   margin-top: 5px;
@@ -34,9 +38,10 @@ body {
   border-radius: 5px;
   height: 70px;
   width: 100%;
-  color: #fff;
+  color: #ecf0f1;
   font-size: 30px;
   font-weight: bold;
+  font-family: "Raleway", sans-serif;
 }
 
 .code {
@@ -54,8 +59,10 @@ body {
 
 #scoresDiv {
   font-weight: bold;
+  font-family: "Raleway", sans-serif;
 }
 
 #scoresDiv span {
   font-weight: lighter !important;
+  font-family: "Raleway", sans-serif;
 }
