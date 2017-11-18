@@ -28,20 +28,14 @@ body {
   transition: 0.2s;
 }
 
-#nextButton {
-  background: #3498db;
-  outline: none;
-  border: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  height: 70px;
+#next {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  color: #ecf0f1;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
+  height: 100%;
+  z-index: 100;
+  display: none;
 }
 
 .code {

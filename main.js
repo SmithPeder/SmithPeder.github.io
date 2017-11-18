@@ -1,5 +1,5 @@
 let section = document.getElementById("section");
-let nextButton = document.getElementById("nextButton");
+let next = document.getElementById("next");
 let questionNum = 0;
 let right = 0;
 let wrong = 0;
@@ -80,12 +80,14 @@ function chooseAnswer(self, answer) {
     section.getElementsByTagName("button")[i].style.pointerEvents = "none";
   }
   updateScores();
+  next.style.display = "block";
 }
 
 //Next question
-nextButton.onclick = function() {
+next.onclick = function() {
   updateScores();
   printQuestion();
+  next.style.display = "none";
 };
 
 //Get new scores
