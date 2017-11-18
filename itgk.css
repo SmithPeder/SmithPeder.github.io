@@ -5,11 +5,11 @@ body {
   text-align: center;
 }
 
-#questionDiv h3 {
+#section h3 {
   color: #263238;
 }
 
-#questionDiv button {
+#section button {
   display: block;
   min-width: 100%;
   padding-top: 20px;
@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-  -webkit-transition: 0.2s; /* Safari */
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -57,7 +57,7 @@ body {
   margin-left: 15px;
 }
 
-#scoresDiv {
+#score {
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   position: absolute;
@@ -65,7 +65,7 @@ body {
   right: 10px;
 }
 
-#scoresDiv span {
+#score span {
   font-weight: lighter !important;
   font-family: "Raleway", sans-serif;
 }

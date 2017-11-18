@@ -1,10 +1,10 @@
-let questionDiv = document.getElementById("questionDiv");
+let section = document.getElementById("section");
 let nextButton = document.getElementById("nextButton");
 let questionNum = 0;
 let right = 0;
 let wrong = 0;
 let asked = [];
-let scoresDiv = document.getElementById("scoresDiv");
+let score = document.getElementById("score");
 
 //Init
 window.onload = function() {
@@ -20,11 +20,11 @@ function randBetween(min, max) {
 function printQuestion() {
   qNum = chooseQuestion();
   questionNum = qNum;
-  questionDiv.innerHTML = "<h3>" + questions[qNum].question + "</h3>";
-  createButtonAndAppend("button", questions[qNum].answer1, questionDiv, 1);
-  createButtonAndAppend("button", questions[qNum].answer2, questionDiv, 2);
-  createButtonAndAppend("button", questions[qNum].answer3, questionDiv, 3);
-  createButtonAndAppend("button", questions[qNum].answer4, questionDiv, 4);
+  section.innerHTML = "<h3>" + questions[qNum].question + "</h3>";
+  createButtonAndAppend("button", questions[qNum].answer1, section, 1);
+  createButtonAndAppend("button", questions[qNum].answer2, section, 2);
+  createButtonAndAppend("button", questions[qNum].answer3, section, 3);
+  createButtonAndAppend("button", questions[qNum].answer4, section, 4);
 }
 
 //Generate new question
@@ -70,14 +70,14 @@ function chooseAnswer(self, answer) {
     //Wrong
     self.style.background = "#F75C4C"; //Red
     wrong++;
-    questionDiv.getElementsByTagName("button")[
+    section.getElementsByTagName("button")[
       questions[questionNum].correctAnswer - 1
     ].style.background =
       "#1EBC61";
   }
   //Make all buttons have no onClick events
-  for (i = 0; i < questionDiv.getElementsByTagName("button").length; i++) {
-    questionDiv.getElementsByTagName("button")[i].style.pointerEvents = "none";
+  for (i = 0; i < section.getElementsByTagName("button").length; i++) {
+    section.getElementsByTagName("button")[i].style.pointerEvents = "none";
   }
   updateScores();
 }
@@ -91,10 +91,10 @@ nextButton.onclick = function() {
 //Get new scores
 function updateScores() {
   //Get stats
-  scoresDiv.getElementsByTagName("span")[0].innerHTML = right;
-  scoresDiv.getElementsByTagName("span")[1].innerHTML = wrong;
-  scoresDiv.getElementsByTagName("span")[2].innerHTML =
+  score.getElementsByTagName("span")[0].innerHTML = right;
+  score.getElementsByTagName("span")[1].innerHTML = wrong;
+  score.getElementsByTagName("span")[2].innerHTML =
     right + "/" + asked.length + " (" + (right - wrong) + " poeng)";
-  scoresDiv.getElementsByTagName("span")[3].innerHTML =
+  score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }
