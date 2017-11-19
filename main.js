@@ -82,6 +82,8 @@ function chooseAnswer(self, answer) {
   }
   updateScores();
   next.style.display = "block";
+  next.style.width = "100%";
+  next.style.height = "100%";
   blur();
 }
 
@@ -108,9 +110,13 @@ function updateScores() {
 function blur() {
   if (info) {
     info = false;
+    score.style.cssText =
+      "filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); -webkit-filter:url(#blur-filter); filter:url(#blur-filter); -webkit-filter: blur(3px); filter: blur(3px);";
     section.style.cssText =
       "filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); -webkit-filter:url(#blur-filter); filter:url(#blur-filter); -webkit-filter: blur(3px); filter: blur(3px);";
   } else {
+    score.style.cssText =
+      "filter:none; -webkit-filter:none; filter:none; -webkit-filter: none; filter:none;";
     section.style.cssText =
       "filter:none; -webkit-filter:none; filter:none; -webkit-filter: none; filter:none;";
   }
