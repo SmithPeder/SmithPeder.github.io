@@ -5,6 +5,7 @@ let right = 0;
 let wrong = 0;
 let asked = [];
 let score = document.getElementById("score");
+let info = true;
 
 //Init
 window.onload = function() {
@@ -81,13 +82,16 @@ function chooseAnswer(self, answer) {
   }
   updateScores();
   next.style.display = "block";
+  blur();
 }
 
 //Next question
 next.onclick = function() {
+  blur();
   updateScores();
   printQuestion();
   next.style.display = "none";
+  document.getElementById("nextimg").style.display = "none";
 };
 
 //Get new scores
@@ -99,4 +103,15 @@ function updateScores() {
     right + "/" + asked.length + " (" + (right - wrong) + ")";
   score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
+}
+
+function blur() {
+  if (info) {
+    info = false;
+    section.style.cssText =
+      "filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); -webkit-filter:url(#blur-filter); filter:url(#blur-filter); -webkit-filter: blur(3px); filter: blur(3px);";
+  } else {
+    section.style.cssText =
+      "filter:none; -webkit-filter:none; filter:none; -webkit-filter: none; filter:none;";
+  }
 }
