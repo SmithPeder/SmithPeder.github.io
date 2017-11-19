@@ -82,8 +82,6 @@ function chooseAnswer(self, answer) {
   }
   updateScores();
   next.style.display = "block";
-  next.style.width = "100%";
-  next.style.height = "100%";
   blur();
 }
 
