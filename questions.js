@@ -1528,7 +1528,7 @@ const questions = [
     answer2: "En minnekrets som tar vare på systemets innstillinger.",
     answer3: "En prosessor for tynne mobiltelefoner.",
     answer4: "Bunnplata i et PC kabinett.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er en pakke (packet) i nettverkssammenheng?",
@@ -1539,7 +1539,7 @@ const questions = [
     answer3:
       "Den datamengden som utveksles mellom to datamaskiner som kommuniserer via nettverket.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -1548,7 +1548,7 @@ const questions = [
     answer2: "En datamaskins hurtigbuffer (cache).",
     answer3: "En minnepinne.",
     answer4: "Alle alternativene er sekundærlagringsenheter.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er en protokoll i nettverkssammenheng?",
@@ -1557,7 +1557,7 @@ const questions = [
     answer3:
       "Et register der all nettverkstrafikk blir lagret i henhold til kravene fra myndighetene.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -1566,7 +1566,7 @@ const questions = [
     answer2: "Gigabyte.",
     answer3: "Båndbredde.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva definerer et klient/tjener (client/server) forhold?",
@@ -1574,7 +1574,7 @@ const questions = [
     answer2: "Klienter og tjenere tilbyr data og tjenester til hverandre.",
     answer3: "Tjenere tilbyr data og tjenester til klienter.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva definerer et ”peer-to-peer” nettverk?",
@@ -1582,7 +1582,7 @@ const questions = [
     answer2: "En er slave, de andre er sjefer.",
     answer3: "Alle er likeverdige.",
     answer4: "Ingen av alternativene er riktig",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hvordan kan en GPS bestemme en posisjon?",
@@ -1593,7 +1593,7 @@ const questions = [
     answer3:
       "En GPS beregner sin posisjon ved å bruke lokasjon til kun en satellitt.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er Wi-Fi?",
@@ -1601,7 +1601,7 @@ const questions = [
     answer2: "En kvalitetsbetegnelse for trådløse nett.",
     answer3: "Et mål på kvaliteten på en bredbåndabonnentslinje inn til huset.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "En device driver er:",
@@ -1611,7 +1611,7 @@ const questions = [
     answer3:
       "enheten som holder rede på neste instruksjon som skal utføres av en prosessor.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Et maskinspråk (machine language) er:",
@@ -1622,7 +1622,7 @@ const questions = [
     answer3:
       "er programmeringsspråk som er felles for alle datamaskiner slik at de kan kommunisere.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Ordstørrelse (word size) for en prosessor er:",
@@ -1630,7 +1630,7 @@ const questions = [
     answer2: "antall bokstaver som kan behandles i en tekststreng.",
     answer3: "antall bit en prosessor kan prosessere på en gang.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Ytelse for superdatamaskiner måles i:",
@@ -1638,7 +1638,7 @@ const questions = [
     answer2: "Gigabytes.",
     answer3: "Antall prosessorkjerner.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Systemklokka i en datamaskin:",
@@ -1646,7 +1646,7 @@ const questions = [
     answer2: "bestemmer hvor raskt operasjoner i en mikroprosessor utføres.",
     answer3: "sørger for at dato og tid alltid er riktig satt.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -1655,7 +1655,7 @@ const questions = [
     answer2: "Programmere systemet.",
     answer3: "Gjennomføre en forberedende analyse.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva vil det si å vedlikeholde et informasjonssystem?",
@@ -1663,7 +1663,7 @@ const questions = [
     answer2: "Utføre endringer i systemet basert på nye betingelser.",
     answer3: "Oppdatere dokumentasjon.",
     answer4: "Alle alternativene er riktig.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Hva gjør en enhetstest?",
@@ -1672,7 +1672,7 @@ const questions = [
     answer2: "Tester at selve datamaskinen (maskinvaren) fungerer.",
     answer3: "Tester individuelle deler av programvaren.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er en algoritme?",
@@ -1681,7 +1681,7 @@ const questions = [
     answer3:
       "En presis beskrivelse av operasjoner som skal utføres for å løse et problem.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er et flytskjema?",
@@ -1689,7 +1689,7 @@ const questions = [
     answer2: "Et skjema for å fylle inn informasjon på en webside.",
     answer3: "Et skjema som dokumenterer sikkerhet i et databasesystem.",
     answer4: "Ingen av alternativene er riktig",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva står ACID for innen databaser?",
@@ -1697,7 +1697,7 @@ const questions = [
     answer2: "Appropriate, Collaborative, Irrelevant, Driver.",
     answer3: "Atomicity, Consistency, Isolation, Durability.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er en tjener i en klient-/tjenerarkitektur?",
@@ -1706,7 +1706,7 @@ const questions = [
     answer3:
       "En tjener er et program som vil ha noe utført på en annen maskin.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -1715,7 +1715,7 @@ const questions = [
     answer2: "3N",
     answer3: "3Nlog(N)",
     answer4: "N^2log(n)",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er hovedoppgaven til en navnetjener?",
@@ -1723,7 +1723,7 @@ const questions = [
     answer2: "Å oversette IP-adresser til domenenavn.",
     answer3: "Å holde rede på definerte variabelnavn når et program kjører.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Når kan man ikke benytte seg av binærsøkingsalgoritmen?",
@@ -1732,7 +1732,7 @@ const questions = [
       "Når det er stor sannsynlighet for at det man søker etter ikke finnes i datamengden.",
     answer3: "Når datamengden ikke er sortert.",
     answer4: "Man kan alltid bruke binærsøkingsalgoritmen.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1741,7 +1741,7 @@ const questions = [
     answer2: "Cache, registre, primærminne, sekundærminne.",
     answer3: "Primærminne, cache, sekundærminne, registre.",
     answer4: "Primærminne, registre, cache, sekundærminne.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -1750,7 +1750,7 @@ const questions = [
     answer2: "Politisk oppfatning.",
     answer3: "Filosofisk oppfatning.",
     answer4: "Alle alternativene er sensitive personopplysninger.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -1759,7 +1759,7 @@ const questions = [
     answer2: "7",
     answer3: "8",
     answer4: "9",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva blir resultatet når 81 kodes binært (i 2-tallsystemet)?",
@@ -1767,7 +1767,7 @@ const questions = [
     answer2: "1010101",
     answer3: "1010001",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1776,7 +1776,7 @@ const questions = [
     answer2: "43981",
     answer3: "44981",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "QoS er forkortelse for:",
@@ -1784,7 +1784,7 @@ const questions = [
     answer2: "Quality of Servers.",
     answer3: "Quality of Service.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1793,7 +1793,7 @@ const questions = [
     answer2: "Omtrent 27",
     answer3: "Omtrent 34",
     answer4: "Omtrent 40",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "A or not (B and C) er usant (engelsk: false) når:",
@@ -1801,7 +1801,7 @@ const questions = [
     answer2: "A True, B True, C False",
     answer3: "A False, B False, C True",
     answer4: "Ingen av svarene er riktige",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er entropi?",
@@ -1810,7 +1810,7 @@ const questions = [
     answer3:
       "En feiltilstand som gjør at lesehodet på en harddisk ikke klarer å følge sporene nøyaktig og derfor blander data fra flere spor.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "En URL (Uniform Resource Locator) har følgende format:",
@@ -1818,7 +1818,7 @@ const questions = [
     answer2: "Protokoll, maskin, sti",
     answer3: "Domene, sti, fil",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "En IP-adresse er:",
@@ -1828,7 +1828,7 @@ const questions = [
       "En mekanisme som gjør det mulig å kontakte en Internett Provider, for eksempel når det oppstår feil i nettet.",
     answer3: "Et felt som identifiserer data i en relasjonsdatabase.",
     answer4: "Ingen av de",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er inspeksjon av programvare?",
@@ -1839,7 +1839,7 @@ const questions = [
     answer3:
       "Gjennomgang av programmer uten at de blir kjørt, med tanke på å finne feil og å forvisse seg om at de er riktige.",
     answer4: "Ingen av de",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1850,7 +1850,7 @@ const questions = [
       "Egner seg spesielt godt for multimediedata som bilder, lyd og video.",
     answer4:
       "Fjerner bare informasjonsinnhold som ikke er viktig for menneskers oppfatning av informasjonsmengden, for eksempel i et bilde.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva sier Nyquist-regelen om samplingsfrekvensen?",
@@ -1861,7 +1861,7 @@ const questions = [
     answer3:
       "Samplingsfrekvensen må være minst dobbelt så rask som den høyeste lydfrekvensen.",
     answer4: "Samplingsfrekvensen må alltid være 20KHz.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er oppgaven til en programteller (program counter):",
@@ -1869,7 +1869,7 @@ const questions = [
     answer2: "Den inneholder adressen til neste instruksjon.",
     answer3: "Den styrer antall iterasjoner i en FOR-løkke.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvor mange symboler kan kodes med 10 bit?",
@@ -1877,7 +1877,7 @@ const questions = [
     answer2: "512",
     answer3: "1024",
     answer4: "Ingen av de",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hvorfor digitalisere nettverk?",
@@ -1885,7 +1885,7 @@ const questions = [
     answer2: "Enklere å utnytte kapasitet bedre med felles nettverk.",
     answer3: "Digital koding kan gi bedre feilsjekk og korrigering av feil.",
     answer4: "Alle alternativene er riktige.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Hva er fokuset i programvarevalideringsfasen i systemutvikling?",
@@ -1893,7 +1893,7 @@ const questions = [
     answer2: "Designe hvordan systemet skal oppføre seg.",
     answer3: "Teste om systemet stemmer med spesifikasjonen og kundekrav.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er et Denial of Service–angrep?",
@@ -1905,7 +1905,7 @@ const questions = [
       "Å nekte å motta meldinger fra en tjener (server) som da blir opptatt med å sende forespørslene på nytt og på nytt.",
     answer4:
       "Å sende en falsk e-post om problemer med en tjeneste, som for eksempel en nettbank, og lure brukeren til å avsløre påloggingsinformasjon for å få løst problemet.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -1916,7 +1916,7 @@ const questions = [
     answer3:
       "Vi må hente ut data sekvensielt (byte for byte) for å finne det vi leter etter.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva vil det si at en datamaskin er deterministisk?",
@@ -1925,7 +1925,7 @@ const questions = [
       "Når den skal velge hvilken instruksjon den skal behandle neste gang har den ikke noe valg, men baserer valget på programmet og dataene den gis.",
     answer3: "At den har en intuisjon på hva som er lurt å gjøre.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -1934,7 +1934,7 @@ const questions = [
     answer2: "Ja og Nei.",
     answer3: "+ og –.",
     answer4: "Alle alternativene er riktige.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -1943,7 +1943,7 @@ const questions = [
     answer2: "Binærsøk (binary search).",
     answer3: "Sekvensielt søk (sequential search).",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -1953,7 +1953,7 @@ const questions = [
     answer2: "Programmerere er pessimister.",
     answer3: "Det er mer interessant med høye tall.",
     answer4: "Det forteller hvor lang tid algoritmen ca. bruker på å kjøre.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er et datagram?",
@@ -1961,7 +1961,7 @@ const questions = [
     answer2: "Vekten på en dataenhet.",
     answer3: "En pakke som sendes over internett som følger IP-protokollen.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1970,7 +1970,7 @@ const questions = [
     answer2: "ISP (Internet Service Provider).",
     answer3: "CRC (Cyclic Redundancy Check).",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -1979,7 +1979,7 @@ const questions = [
     answer2: "1111 1111 0000 0000 0000 0000.",
     answer3: "0000 0000 1111 1111 0000 0000.",
     answer4: "0000 0000 0000 0000 1111 1111.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -1992,7 +1992,7 @@ const questions = [
       "Instruction Fetch – Instruction Decode – Data Fetch – Instruction Execution – Results Return.",
     answer4:
       "Instruction Decode – Instruction Execution – Instruction Fetch – Data Fetch – Results Return.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2002,7 +2002,7 @@ const questions = [
       "Smidig (agile) systemutvikling har overtatt mer og mer for plandrevet systemutvikling.",
     answer3: "Vannfallsmodellen har overtatt for inkrementell systemutvikling.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er DAC?",
@@ -2012,7 +2012,7 @@ const questions = [
     answer3: "En enhet som oversetter digitale signaler til analoge signaler.",
     answer4:
       "Et program som oversetter datakode til programmeringsspråket C (evt. C++).",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Rekursjon betyr at",
@@ -2020,7 +2020,7 @@ const questions = [
     answer2: "Kjøretiden til programmet minsker.",
     answer3: "Programmet går i evig løkke.",
     answer4: "Ingen av svarene er riktige.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2029,7 +2029,7 @@ const questions = [
     answer2: "Θ(n3), Θ(n), Θ(n2), Θ(log(n)).",
     answer3: "Θ(log(n)), Θ(n3), Θ(n2), Θ(n).",
     answer4: "Θ(n), Θ(log(n)), Θ(n3), Θ(n2).",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2038,7 +2038,7 @@ const questions = [
     answer2: "Mikrodatamaskin.",
     answer3: "Stormaskin.",
     answer4: "Superdatamaskin.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -2047,7 +2047,7 @@ const questions = [
     answer2: "Brukes som en del av diverse utstyr og kjøretøyer.",
     answer3: "Benytter alltid store sekundærlager.",
     answer4: "Finnes i mikrobølgeovn, tastatur, klokker, etc.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2056,7 +2056,7 @@ const questions = [
     answer2: "Operativsystemet.",
     answer3: "Utstyrsdrivere (device drivers).",
     answer4: "Hjelpeprogrammer (utility programs).",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hvilket alternativ beskriver sekundærminne?",
@@ -2064,7 +2064,7 @@ const questions = [
     answer2: "CD/DVD",
     answer3: "Minnepenn",
     answer4: "Alle alternativene er riktig.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -2073,7 +2073,7 @@ const questions = [
     answer2: "CPU",
     answer3: "Høyttaler",
     answer4: "Printer",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvor mange bytes er 1 kilobyte?",
@@ -2081,18 +2081,18 @@ const questions = [
     answer2: "1024 bytes",
     answer3: "1048 bytes",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er korrekt angående systemprogramvaren i en datamaskin?",
-    answer1:
+    asswer1:
       "Gjør det mulig for applikasjonsprogramvare å kommunisere med datamaskin.",
     answer2:
       "Hjelper datamaskinen til å håndtere sine egne interne og eksterne ressurser.",
     answer3:
       "Inkluderer utstyrsdrivere (device drivers) og hjelpeprogrammer (utility programs).",
     answer4: "Alle alternativene er riktige.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Hva legges i begrepet ”booting”?",
@@ -2102,7 +2102,7 @@ const questions = [
       "Prosessen å laste inn applikasjonsprogramvare i minne til en datamaskin.",
     answer3: "Prosessen å skifte mellom to programmer i et operativsystem.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2114,7 +2114,7 @@ const questions = [
       "Man kan starte programmer direkte utenom operativsystemet på de fleste universelle datamaskiner (PCer).",
     answer4:
       "Operativsystemet tar seg av oppgaver som oppstart, prosessorhåndtering, filhåndtering, oppgavehåndtering og sikkerhetshåndtering.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva står forkortelsen ”BIOS” for?",
@@ -2122,7 +2122,7 @@ const questions = [
     answer2: "Basic Input/Output System.",
     answer3: "Boot In Open Software.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2132,7 +2132,7 @@ const questions = [
     answer3:
       "Datamaskinen bruker andre enheter som grafikkort til å utføre programmer.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er oppgaven til utstyrsdrivere (device drivers)?",
@@ -2142,7 +2142,7 @@ const questions = [
     answer3:
       "Sørge for at alle eksterne enheter kan tilkobles ved hjelp av USB.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva betyr begrepet båndbredde (bandwidth)?",
@@ -2153,7 +2153,7 @@ const questions = [
       "Uttrykk for hvilken type data som kan sendes over en kommunikasjonskanal.",
     answer4:
       "Uttrykk for hvor mye data som kan sendes over en kommunikasjonskanal.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Hvilken teknologi har potensielt størst overføringskapasitet?",
@@ -2161,7 +2161,7 @@ const questions = [
     answer2: "Optisk fiber.",
     answer3: "Koaksialkabel.",
     answer4: "Wi-Fi.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er en protokoll når man snakker om nettverk?",
@@ -2171,7 +2171,7 @@ const questions = [
       "Et program som sjekker om data kan overføres mellom to datamaskiner.",
     answer3: "En standard for å representere websider.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2180,7 +2180,7 @@ const questions = [
     answer2: "429 millioner.",
     answer3: "4,29 milliarder.",
     answer4: "429 milliarder.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2189,7 +2189,7 @@ const questions = [
     answer2: "Protokoll.",
     answer3: "Type webdokument (f.eks. HTML, php, asp, jsp).",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva står HTML for?",
@@ -2197,7 +2197,7 @@ const questions = [
     answer2: "Hypertext Modelling Language.",
     answer3: "Hypertext Markup Language.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva ligger i begrepet ”spoofing”?",
@@ -2205,7 +2205,7 @@ const questions = [
     answer2: "Opprette nettsider som utgir seg for å være noe annet enn de er.",
     answer3: "Bryte seg inn i et datasystem.",
     answer4: "Sende epost med falsk avsender.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -2214,7 +2214,7 @@ const questions = [
     answer2: "134",
     answer3: "180",
     answer4: "190",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva definerer et ”peer-to-peer” nettverk?",
@@ -2222,7 +2222,7 @@ const questions = [
     answer2: "En er sjef, de andre er salver.",
     answer3: "Alle er likeverdige.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2231,7 +2231,7 @@ const questions = [
     answer2: "Relativ hyperlenke.",
     answer3: "Modifiserende hyperlenke.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2240,7 +2240,7 @@ const questions = [
     answer2: "Utvikling.",
     answer3: "Vedlikehold.",
     answer4: "Ingen av alternativene er riktig.",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er pseudokode?",
@@ -2251,7 +2251,7 @@ const questions = [
       "De delene av et program som kan være årsak til en feil som er avdekket under testing",
     answer4:
       "En måte å beskrive algoritmer som er mindre formell enn regulære programmeringsspråk",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -2260,7 +2260,7 @@ const questions = [
     answer2: "6",
     answer3: "7",
     answer4: "8",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvilken av disse aksessteknologiene gir høyest kapasitet ?",
@@ -2268,7 +2268,7 @@ const questions = [
     answer2: "3G/UMTS",
     answer3: "HSDPA",
     answer4: "LTE",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question:
@@ -2277,7 +2277,7 @@ const questions = [
     answer2: "3-5 ganger eller mer",
     answer3: "8-10 ganger eller mer",
     answer4: "20 ganger eller mer",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2286,7 +2286,7 @@ const questions = [
     answer2: "20",
     answer3: "30",
     answer4: "50",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Analog informasjon er",
@@ -2294,7 +2294,7 @@ const questions = [
     answer2: "Kontinuerlig",
     answer3: "Tilfeldig",
     answer4: "Digital",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2303,7 +2303,7 @@ const questions = [
     answer2: "Spesifikasjon, analyse, programmering, bruk",
     answer3: "Forstudie, implementasjon, testing, bruk",
     answer4: "Forstudie, programmering, simulering, vedlikehold",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2312,7 +2312,7 @@ const questions = [
     answer2: "32768",
     answer3: "65536",
     answer4: "1048576",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hvorfor kan et WiFi nettverk påvirke en Bluetooth forbindelse?",
@@ -2321,7 +2321,7 @@ const questions = [
     answer3: "Bluetooth og WiFi bruker samme metode for koding",
     answer4:
       'Ved samtidig bruk av WiFi og Bluetooth dannes et fenomen som heter "stående bølger"',
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvor mange instruksjoner er vanlig i en moderne datamaskin?",
@@ -2329,7 +2329,7 @@ const questions = [
     answer2: "10-20",
     answer3: "rundt 100",
     answer4: "tusenvis",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva kjennetegner problemløsning etter top-down prinsippet?",
@@ -2338,7 +2338,7 @@ const questions = [
     answer3: "Vi går fra det generelle til det spesielle",
     answer4:
       "Vi løser de enkelte delene av problemet først og bruker disse løsningene som byggeklosser i en generell løsning",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2347,7 +2347,7 @@ const questions = [
     answer2: "10 s",
     answer3: "100 s",
     answer4: "1000 s",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er pipelining?",
@@ -2355,7 +2355,7 @@ const questions = [
     answer2: "Flere instruksjoner kan være under utførelse samtidig",
     answer3: "En effektiv organisering av datamaskinens hukommelse",
     answer4: "En mekanisme for å utveksle data mellom programmer",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvor mange symboler kan representeres av en sekvens på K bit?",
@@ -2363,7 +2363,7 @@ const questions = [
     answer2: "2^K",
     answer3: "K",
     answer4: "2",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2372,7 +2372,7 @@ const questions = [
     answer2: "Tilgjengelighet",
     answer3: "Pålitelighet",
     answer4: "Ytelse",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2381,7 +2381,7 @@ const questions = [
     answer2: "Vi oppfyller kravene i Nyquist-regelen",
     answer3: "Vi kan representere stereo-lyd",
     answer4: "Vi får en mer nøyaktig digitalisering",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Det å utgi seg for være noen andre på internett kalles",
@@ -2389,7 +2389,7 @@ const questions = [
     answer2: "Spoofing",
     answer3: "Phanning",
     answer4: "Aliasing",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2400,7 +2400,7 @@ const questions = [
       "GIF-filer komprimerer hverken vertikale eller horisontale fargebånd spesielt bra",
     answer4:
       "GIF-filer komprimerer både horisontale og vertikale fargebånd veldig bra",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2409,7 +2409,7 @@ const questions = [
     answer2: "Tusenvis av gangeri sekunder",
     answer3: "Hundretusenvis av ganger i sekundet",
     answer4: "Ikke oftere enn antall ganger klokken i maskina tikker",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "Hva kjennetegner inkrementell programvareutvikling?",
@@ -2418,7 +2418,7 @@ const questions = [
     answer2: "Utvikler programvaren uten noen plan eller prosess",
     answer3: "Deler opp systemet i mindre deler som blir utviklet del for del",
     answer4: "Lager en rask prototype basert på eksisterende krav",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2427,7 +2427,7 @@ const questions = [
     answer2: "Data",
     answer3: "Metadata",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2436,7 +2436,7 @@ const questions = [
     answer2: "Registre -> primærminnet -> sekundærminnet -> cache",
     answer3: "Cache -> registre -> primærminnet -> sekundærminnet",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2445,7 +2445,7 @@ const questions = [
     answer2: "Klient",
     answer3: "Bruker",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2454,7 +2454,7 @@ const questions = [
     answer2: "5",
     answer3: "6",
     answer4: "7",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2463,7 +2463,7 @@ const questions = [
     answer2: "12",
     answer3: "48",
     answer4: "64",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2472,7 +2472,7 @@ const questions = [
     answer2: "255",
     answer3: "256",
     answer4: "64",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2481,7 +2481,7 @@ const questions = [
     answer2: "100010011",
     answer3: "110011011",
     answer4: "11110000",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2494,7 +2494,7 @@ const questions = [
       "Med inkrementell utvikling begynner man å skrive koden først, og deretter dokumenterer man kravene og lager designet",
     answer4: "Ingen av delene",
 
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2503,7 +2503,7 @@ const questions = [
     answer2: "Svitsj (Switch)",
     answer3: "Ruter (Router)",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hvilken av de følgende er en lovlig IP-addresse?",
@@ -2511,7 +2511,7 @@ const questions = [
     answer2: "8.7.9.2",
     answer3: "12.234.12.104.77",
     answer4: "Ingen av de",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva betyr synbarhet ved programmering av funksjoner/metoder?",
@@ -2520,7 +2520,7 @@ const questions = [
     answer3:
       "Samme navn kan brukes på variabler i forskjellige funksjoner/metoder",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hvorfor komprimeres data?",
@@ -2528,7 +2528,7 @@ const questions = [
     answer2: "For at det skal kunne gjøres tilgjengelig for alle på Internett",
     answer3: "For at data ikke skal kunne leses av uvedkommende",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er en protokoll?",
@@ -2537,7 +2537,7 @@ const questions = [
       "Et program som oversetter programmeringskode til kode som kan kjøres på en datamaskin",
     answer3: "Hovedkomponenten i en vanlig datamaskin",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva brukes en prosessor hovedsakelig til?",
@@ -2547,7 +2547,7 @@ const questions = [
     answer3:
       "Utføre regneoperasjoner på og sammenlikninger direkte på data lagret i primærminnet (RAM",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question:
@@ -2556,7 +2556,7 @@ const questions = [
     answer2: "Når dataene ikke er sortert",
     answer3: "Når man ikke vet om det man søker etter finnes i dataene",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er tallet 1365 representert som et binært tall?",
@@ -2564,7 +2564,7 @@ const questions = [
     answer2: "10110101010",
     answer3: "10101010101",
     answer4: "10100110100",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er hovedoppgaven til kontrollenheten i en prosessor?",
@@ -2573,7 +2573,7 @@ const questions = [
     answer2: "Kontrollere at regneoperasjonene i ALU er korrekte",
     answer3: "Ha kontroll på hvor neste instruksjon ligger i minnet (RAM)",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2582,7 +2582,7 @@ const questions = [
     answer2: "HTTP, FTP, TCP, IP, SMTP",
     answer3: "Kun TCP og IP",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er den viktigste oppgaven til en nettverksruter?",
@@ -2590,7 +2590,7 @@ const questions = [
     answer2: "Forsterke og rense signaler i nettverket",
     answer3: "Koble sammen ulike nettverk og nettverkssegmenter",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2599,7 +2599,7 @@ const questions = [
     answer2: "cache, registre, primærminne, sekundærminne",
     answer3: "primærminne, cache, registre, sekundærminne",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hvor mange bits benyttes i nåværende IP-adresser (IPv4)?",
@@ -2607,7 +2607,7 @@ const questions = [
     answer2: "16 bits",
     answer3: "48 bits",
     answer4: "64 bits",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2616,7 +2616,7 @@ const questions = [
     answer2: "95",
     answer3: "85",
     answer4: "75",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2625,7 +2625,7 @@ const questions = [
     answer2: "4",
     answer3: "3",
     answer4: "2",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er den viktigste oppgaven til en nettverkssvitsj?",
@@ -2634,7 +2634,7 @@ const questions = [
     answer3:
       "Fordele datatrafikken slik at datapakkene kommer frem til riktig mottaker.",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2643,7 +2643,7 @@ const questions = [
     answer2: "Omtrent 30",
     answer3: "Omtrent 40",
     answer4: "Omtrent 50",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Testing av programkode vil si at man:",
@@ -2652,7 +2652,7 @@ const questions = [
     answer3:
       "Kjører programkoden og sjekker at forholdet mellom inndata og utdata er som forventet.",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2663,7 +2663,7 @@ const questions = [
     answer3:
       "Man kan være sikker på identiteten til den som har sendt meldingen (autentisering).",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er nettverkstjenester?",
@@ -2671,7 +2671,7 @@ const questions = [
     answer2: "Fildeling, WWW og e-post.",
     answer3: "Filoverføring, TCP/IP og WWW.",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "CPU er forkortelse for:",
@@ -2679,7 +2679,7 @@ const questions = [
     answer2: "Coordinating Processor Unit.",
     answer3: "Central Processing Unit.",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2688,7 +2688,7 @@ const questions = [
     answer2: "Over 100 millioner.",
     answer3: "Omtrent en milliard.",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "På hvilken måte skiller harddisk seg fra primærminne (RAM):",
@@ -2696,7 +2696,7 @@ const questions = [
     answer2: "Dataene er sikre mot strømbrudd.",
     answer3: "Begge utsagnene er feil.",
     answer4: "Begge utsagnene er riktig.",
-    correctAnswer: 3
+    correctAnswer: 4
   },
   {
     question: "A and (B or C) er True (sant) for:",
@@ -2704,7 +2704,7 @@ const questions = [
     answer2: "A True, B False, C False",
     answer3: "A False, B True, C True",
     answer4: "A False, B False, C True",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2713,7 +2713,7 @@ const questions = [
     answer2: "Programmet får høyere funksjonalitet.",
     answer3: "Det er lettere å forstå programmet.",
     answer4: "Det ser bedre ut",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva stemmer ikke om kommentarer i programkode?",
@@ -2721,7 +2721,7 @@ const questions = [
     answer2: "De gjør det lettere å forstå koden.",
     answer3: "Programmet kjører langsommere.",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2730,7 +2730,7 @@ const questions = [
     answer2: "6 bits",
     answer3: "8 bits",
     answer4: "10 bits",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2739,7 +2739,7 @@ const questions = [
     answer2: "Cache",
     answer3: "Primærminne",
     answer4: "Sekundærminne",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "En ulempe med åpen kildekode (open source) er:",
@@ -2747,7 +2747,7 @@ const questions = [
     answer2: "Det er store firma står som regel bak utviklingen",
     answer3: "Du har normalt ikke krav på brukerstøtte",
     answer4: "Folk kan stjele alt du har skrevet",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva er svart-boks testing?",
@@ -2758,7 +2758,7 @@ const questions = [
     answer3:
       "Testing som konsentrerer seg om hvordan de ulike delene i et system fungerer sammen",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er kjernen i et operativsystem?",
@@ -2766,7 +2766,7 @@ const questions = [
     answer2: "Den delen som administrerer maskinressurser",
     answer3: "Det mediet som operativsystemet installeres fra",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hvorfor krypteres data?",
@@ -2774,7 +2774,7 @@ const questions = [
     answer2: "For at det skal ta mindre plass",
     answer3: "For at det skal kunne gjøres tilgjengelig for alle på Internett",
     answer4: "FOr at det kan krypteres",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "En protokoll er:",
@@ -2783,7 +2783,7 @@ const questions = [
     answer2: "En enhet som gjør beregninger og sammenlikninger i en datamaskin",
     answer3: "Et sett av kommunikasjonsregler",
     answer4: "Et type filsystem",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Er binærsøk alltid raskere enn sekvensielt søk?",
@@ -2792,7 +2792,7 @@ const questions = [
       "Binærsøk er alltid raskere enn sekvensielt søk på sorterte datamengder",
     answer3: "Sekvensielt søk kan være raskere enn binærsøk",
     answer4: "Ingen av delene",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Hva gjør man når man designer et system under systemutvikling?",
@@ -2800,7 +2800,7 @@ const questions = [
     answer2: "Beskriver hvordan systemet skal lages",
     answer3: "Beskriver kun hvordan systemet skal se ut",
     answer4: "Ingen av delene",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "I det binære tallsystemet, hva er 010 multiplisert med 101?",
@@ -2808,7 +2808,7 @@ const questions = [
     answer2: "1010",
     answer3: "1111",
     answer4: "0011",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Hva er inspeksjon i systemutvikling?",
@@ -2818,7 +2818,7 @@ const questions = [
       "Inspeksjon innebærer å undersøke om de som programmerer lager ryddige programmer som er lette å lese",
     answer3: "Inspeksjon innebærer å finne feil i koden ved å kjøre programmet",
     answer4: "Ingen av delene",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question: "Hva er en normal konfigurasjon av en klient-tjener arkitektur?",
@@ -2826,7 +2826,7 @@ const questions = [
     answer2: "Mange tjenere, få klienter",
     answer3: "Mange tjenere, mange klienter",
     answer4: "Få tjenere, få klienter",
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     question:
@@ -2835,7 +2835,7 @@ const questions = [
     answer2: "N log N",
     answer3: "N^2",
     answer4: "N^3",
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question:
@@ -2844,6 +2844,6 @@ const questions = [
     answer2: "8",
     answer3: "9",
     answer4: "18",
-    correctAnswer: 2
+    correctAnswer: 3
   }
 ];
