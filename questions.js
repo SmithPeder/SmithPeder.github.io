@@ -264,6 +264,14 @@ const questions = [
     correctAnswer: 4
   },
   {
+    question: "En byte hukommelse kan lagre",
+    answer1: "en av 1024 forskjellige tall",
+    answer2: "et ord",
+    answer3: "et ASCII tegn",
+    answer4: "en blokk",
+    correctAnswer: 3
+  },
+  {
     question:
       "Hvilken av de følgende er en kjent fordel med vannfallsmodellen?",
     answer1: "Tar hensyn til brukerkrav som endrer seg i løpet av prosjektet",
@@ -517,14 +525,6 @@ const questions = [
     answer3: "Begge vil finne Carol like raskt",
     answer4: "Svaret er avhengig av hvordan binærsøkalgoritmen er implementert",
     correctAnswer: 4
-  },
-  {
-    question: "En byte hukommelse kan lagre",
-    answer1: "en av 1024 forskjellige tall",
-    answer2: "et ord",
-    answer3: "et ASCII tegn",
-    answer4: "en blokk",
-    correctAnswer: 3
   },
   {
     question: "Hvor mange steg er det i Fetch/Execute syklusen",
@@ -1957,7 +1957,6 @@ const questions = [
   },
   {
     question: "Hva er et datagram?",
-
     answer1: "Et telegram som er skrevet på data.",
     answer2: "Vekten på en dataenhet.",
     answer3: "En pakke som sendes over internett som følger IP-protokollen.",
@@ -1967,7 +1966,6 @@ const questions = [
   {
     question:
       "Når vi overfører data over internett oppstår det ofte feil på grunn av forstyrrelser på linjene. For å oppdage slike feil brukes ofte",
-
     answer1: "NIC (Network Interface Card).",
     answer2: "ISP (Internet Service Provider).",
     answer3: "CRC (Cyclic Redundancy Check).",
@@ -1977,7 +1975,6 @@ const questions = [
   {
     question:
       "Fargene som vises på en dataskjerm representeres ofte med 24 bits RGB-koding. Fargen blå vil da representeres som:",
-
     answer1: "0000 0000 0000 0000 0000 0000.",
     answer2: "1111 1111 0000 0000 0000 0000.",
     answer3: "0000 0000 1111 1111 0000 0000.",
@@ -1987,7 +1984,6 @@ const questions = [
   {
     question:
       "En mikroprosessor utfører de samme fem oppgavene om og om igjen. Hvilken rekkefølge av stegene under beskriver korrekt rekkefølge på dette F/E-kretsløpet (F/E cycle)?",
-
     answer1:
       "Instruction Fetch – Data Fetch – Instruction Decode – Instruction Execution – Results Return.",
     answer2:
@@ -2001,7 +1997,6 @@ const questions = [
   {
     question:
       "Hvilken bestemt endring har vi sett de siste årene innen systemutvikling?",
-
     answer1: "Spesifisering av krav er ikke lengre relevant.",
     answer2:
       "Smidig (agile) systemutvikling har overtatt mer og mer for plandrevet systemutvikling.",
@@ -2011,7 +2006,6 @@ const questions = [
   },
   {
     question: "Hva er DAC?",
-
     answer1:
       "Et program som hjelper med beregninger (data-assisted computing).",
     answer2: "En enhet som oversetter analoge signaler til digitale signaler.",
@@ -2022,7 +2016,6 @@ const questions = [
   },
   {
     question: "Rekursjon betyr at",
-
     answer1: "En funksjon kaller seg selv.",
     answer2: "Kjøretiden til programmet minsker.",
     answer3: "Programmet går i evig løkke.",
@@ -2032,7 +2025,6 @@ const questions = [
   {
     question:
       "Ranger effektivitetsklassene Θ(n3), Θ(n), Θ(log(n)) og Θ(n2) etter effektivitet, der minst effektiv først og deretter mer og mer effektiv",
-
     answer1: "Θ(n3), Θ(n2), Θ(n), Θ(log(n)).",
     answer2: "Θ(n3), Θ(n), Θ(n2), Θ(log(n)).",
     answer3: "Θ(log(n)), Θ(n3), Θ(n2), Θ(n).",
@@ -2042,7 +2034,6 @@ const questions = [
   {
     question:
       "Hva kalles typen datamaskin som typisk brukes til tyngre oppgaver som værberegninger?",
-
     answer1: "Arbeidsstasjon.",
     answer2: "Mikrodatamaskin.",
     answer3: "Stormaskin.",
@@ -2052,7 +2043,6 @@ const questions = [
   {
     question:
       "Hvilket av disse alternativene beskriver IKKE et mikrokontroller?",
-
     answer1: "Kalles også innebygd datamaskin.",
     answer2: "Brukes som en del av diverse utstyr og kjøretøyer.",
     answer3: "Benytter alltid store sekundærlager.",
@@ -2062,7 +2052,6 @@ const questions = [
   {
     question:
       "Hvilket av disse alternativene beskriver IKKE programvare (software)?",
-
     answer1: "En CD-plate.",
     answer2: "Operativsystemet.",
     answer3: "Utstyrsdrivere (device drivers).",
@@ -2071,7 +2060,6 @@ const questions = [
   },
   {
     question: "Hvilket alternativ beskriver sekundærminne?",
-
     answer1: "Harddisk",
     answer2: "CD/DVD",
     answer3: "Minnepenn",
@@ -2081,7 +2069,6 @@ const questions = [
   {
     question:
       "Hvilket alternativ beskriver IKKE en utenhet (output) i en datamaskin?",
-
     answer1: "Monitor",
     answer2: "CPU",
     answer3: "Høyttaler",
@@ -2090,7 +2077,6 @@ const questions = [
   },
   {
     question: "Hvor mange bytes er 1 kilobyte?",
-
     answer1: "1000 bytes",
     answer2: "1024 bytes",
     answer3: "1048 bytes",
@@ -2099,7 +2085,6 @@ const questions = [
   },
   {
     question: "Hva er korrekt angående systemprogramvaren i en datamaskin?",
-
     answer1:
       "Gjør det mulig for applikasjonsprogramvare å kommunisere med datamaskin.",
     answer2:
@@ -2111,7 +2096,6 @@ const questions = [
   },
   {
     question: "Hva legges i begrepet ”booting”?",
-
     answer1:
       "Prosessen å laste inn operativsystemet i minne til en datamaskin.",
     answer2:
@@ -2123,7 +2107,6 @@ const questions = [
   {
     question:
       "Hvilket alternativ stemmer IKKE angående beskrivelser av et operativsystem?",
-
     answer1: "Håndterer grunnleggende dataoperasjoner på et lavt nivå.",
     answer2:
       "De fleste applikasjonsprogrammer er skrevet for å kjøre på et spesifikt operativsystem.",
@@ -2135,7 +2118,6 @@ const questions = [
   },
   {
     question: "Hva står forkortelsen ”BIOS” for?",
-
     answer1: "Binary Intermediate Operating System.",
     answer2: "Basic Input/Output System.",
     answer3: "Boot In Open Software.",
@@ -2145,7 +2127,6 @@ const questions = [
   {
     question:
       "Hvordan kan datamaskin med en prosessor (CPU) som kun kan kjøre en instruksjon av gangen kjøre flere programmer samtidig (multi-tasking)?",
-
     answer1: "Det er ikke mulig.",
     answer2: "Hvert program får tildelt litt prosesseringstid.",
     answer3:
@@ -2155,7 +2136,6 @@ const questions = [
   },
   {
     question: "Hva er oppgaven til utstyrsdrivere (device drivers)?",
-
     answer1: "Forenkle kommunikasjon mellom datamaskinen og eksternt utstyr.",
     answer2:
       "Bestemme hvilke programmer som skal kjøres i prosessoren (CPUen).",
@@ -2166,7 +2146,6 @@ const questions = [
   },
   {
     question: "Hva betyr begrepet båndbredde (bandwidth)?",
-
     answer1:
       "Beskriver hvilke radiofrekvenser et trådløstnettverk kommuniserer over.",
     answer2: "Beskriver fysisk bredde på optisk fiber eller nettverkskabler.",
@@ -2178,7 +2157,6 @@ const questions = [
   },
   {
     question: "Hvilken teknologi har potensielt størst overføringskapasitet?",
-
     answer1: "ADSL.",
     answer2: "Optisk fiber.",
     answer3: "Koaksialkabel.",
@@ -2187,7 +2165,6 @@ const questions = [
   },
   {
     question: "Hva er en protokoll når man snakker om nettverk?",
-
     answer1:
       "Et sett med regler datamaskiner følger for å overføre data elektronisk.",
     answer2:
@@ -2199,7 +2176,6 @@ const questions = [
   {
     question:
       "Omtrent hvor mange unike adresser tilbyr IPv4 (Internet Protocol ver. 4)?",
-
     answer1: "4,29 millioner.",
     answer2: "429 millioner.",
     answer3: "4,29 milliarder.",
@@ -2209,7 +2185,6 @@ const questions = [
   {
     question:
       "Hva består den første delen av en Uniform Resource Locator (URL) av?",
-
     answer1: "Domenenavn.",
     answer2: "Protokoll.",
     answer3: "Type webdokument (f.eks. HTML, php, asp, jsp).",
@@ -2218,7 +2193,6 @@ const questions = [
   },
   {
     question: "Hva står HTML for?",
-
     answer1: "Horizontal Text Modelling Language.",
     answer2: "Hypertext Modelling Language.",
     answer3: "Hypertext Markup Language.",
@@ -2227,7 +2201,6 @@ const questions = [
   },
   {
     question: "Hva ligger i begrepet ”spoofing”?",
-
     answer1: "Bombardere en nettside med stor datatrafikk.",
     answer2: "Opprette nettsider som utgir seg for å være noe annet enn de er.",
     answer3: "Bryte seg inn i et datasystem.",
@@ -2237,7 +2210,6 @@ const questions = [
   {
     question:
       "Binærtallet 10110100 tilsvarer hvilken verdi i ti-tallsystemet (desimaltallsystemet)?",
-
     answer1: "64",
     answer2: "134",
     answer3: "180",
@@ -2246,7 +2218,6 @@ const questions = [
   },
   {
     question: "Hva definerer et ”peer-to-peer” nettverk?",
-
     answer1: "En er slave, de andre er sjefer.",
     answer2: "En er sjef, de andre er salver.",
     answer3: "Alle er likeverdige.",
@@ -2256,7 +2227,6 @@ const questions = [
   {
     question:
       "På nettsiden www.ntnu.no/student finner du en lenke til følgende dokument ”info.html”. Hvilken type lenke er dette?",
-
     answer1: "Absolutt hyperlenke.",
     answer2: "Relativ hyperlenke.",
     answer3: "Modifiserende hyperlenke.",
@@ -2266,7 +2236,6 @@ const questions = [
   {
     question:
       "Hva kalles den siste fasen i livssyklusen til systemutvikling av informasjonssystemer?",
-
     answer1: "Design.",
     answer2: "Utvikling.",
     answer3: "Vedlikehold.",
@@ -2275,7 +2244,6 @@ const questions = [
   },
   {
     question: "Hva er pseudokode?",
-
     answer1:
       "Foreløpig kode som ikke skal brukes i den endelige versjonen av et system",
     answer2: "En diagramteknikk for å beskrive algoritmer eller programmer",
@@ -2288,7 +2256,6 @@ const questions = [
   {
     question:
       "Vi har 43 ulike symboler som vi ønsker å kode digitalt. Hva er det minste antall bits som vi må bruke?",
-
     answer1: "5",
     answer2: "6",
     answer3: "7",
@@ -2297,7 +2264,6 @@ const questions = [
   },
   {
     question: "Hvilken av disse aksessteknologiene gir høyest kapasitet ?",
-
     answer1: "Edge",
     answer2: "3G/UMTS",
     answer3: "HSDPA",
@@ -2307,7 +2273,6 @@ const questions = [
   {
     question:
       "Retningslinjene for algoritmer sier at det lønner seg å skrive en løkke for å utføre en repeterende oppgave hvis oppgaven må utføres",
-
     answer1: "mer enn l gang",
     answer2: "3-5 ganger eller mer",
     answer3: "8-10 ganger eller mer",
@@ -2317,7 +2282,6 @@ const questions = [
   {
     question:
       "Vi skal bruke binærsøking i en datamengde med 1 000 000 sorterte elementer. Hvor mange oppslag må vi vanligvis giøre?",
-
     answer1: "10",
     answer2: "20",
     answer3: "30",
@@ -2326,7 +2290,6 @@ const questions = [
   },
   {
     question: "Analog informasjon er",
-
     answer1: "Diskret",
     answer2: "Kontinuerlig",
     answer3: "Tilfeldig",
@@ -2336,7 +2299,6 @@ const questions = [
   {
     question:
       "Det er grunnleggende aktiviteter som inngår i alle programvareutviklingsprosesser.",
-
     answer1: "Spesifikasjon, utvikling, validering, evolusjon",
     answer2: "Spesifikasjon, analyse, programmering, bruk",
     answer3: "Forstudie, implementasjon, testing, bruk",
@@ -2346,7 +2308,6 @@ const questions = [
   {
     question:
       "Hvor mange negative og positive heltall kan vi representere i 2 byte?",
-
     answer1: "2048",
     answer2: "32768",
     answer3: "65536",
@@ -2355,7 +2316,6 @@ const questions = [
   },
   {
     question: "Hvorfor kan et WiFi nettverk påvirke en Bluetooth forbindelse?",
-
     answer1: "WiFi nettverk har så sterkt signal",
     answer2: "Bluetooth og WiFi bruker samme frekvensbånd",
     answer3: "Bluetooth og WiFi bruker samme metode for koding",
@@ -2365,7 +2325,6 @@ const questions = [
   },
   {
     question: "Hvor mange instruksjoner er vanlig i en moderne datamaskin?",
-
     answer1: "3-7",
     answer2: "10-20",
     answer3: "rundt 100",
@@ -2374,7 +2333,6 @@ const questions = [
   },
   {
     question: "Hva kjennetegner problemløsning etter top-down prinsippet?",
-
     answer1: "Vi løser de vanskeligste problemene først",
     answer2: "Vi designer før Vi programmerer en løsning",
     answer3: "Vi går fra det generelle til det spesielle",
@@ -2385,7 +2343,6 @@ const questions = [
   {
     question:
       "Sortering ved innsetting (insertion sort) bruker omtrent 1 sekund på å sortere 1000 elementer. Hvor lang tid vil det omtrent ta å sortere 10000 elementer?",
-
     answer1: "2 s",
     answer2: "10 s",
     answer3: "100 s",
@@ -2394,7 +2351,6 @@ const questions = [
   },
   {
     question: "Hva er pipelining?",
-
     answer1: "Lignende operasjoner blir utført i rekkefølge",
     answer2: "Flere instruksjoner kan være under utførelse samtidig",
     answer3: "En effektiv organisering av datamaskinens hukommelse",
@@ -2403,7 +2359,6 @@ const questions = [
   },
   {
     question: "Hvor mange symboler kan representeres av en sekvens på K bit?",
-
     answer1: "K^2",
     answer2: "2^K",
     answer3: "K",
@@ -2413,7 +2368,6 @@ const questions = [
   {
     question:
       "Et nettverk sin evne til å levere uavbrutt / kontinuerlig tjeneste defineres som",
-
     answer1: "Skalerbarhet",
     answer2: "Tilgjengelighet",
     answer3: "Pålitelighet",
@@ -2423,7 +2377,6 @@ const questions = [
   {
     question:
       "Ved digitalisering av lyd, hva oppnår vi med å bruke bit i hver punktprøve (sample)?",
-
     answer1: "Vi trenger ikke å punktprøve (sample) like",
     answer2: "Vi oppfyller kravene i Nyquist-regelen",
     answer3: "Vi kan representere stereo-lyd",
@@ -2432,7 +2385,6 @@ const questions = [
   },
   {
     question: "Det å utgi seg for være noen andre på internett kalles",
-
     answer1: "Phishing",
     answer2: "Spoofing",
     answer3: "Phanning",
@@ -2442,7 +2394,6 @@ const questions = [
   {
     question:
       "Er det horisontale eller vertikale fargebånd som komprimeres bra i GIF-filer",
-
     answer1: "Vertikale",
     answer2: "Horisontale",
     answer3:
@@ -2454,7 +2405,6 @@ const questions = [
   {
     question:
       "Hente/Utføre-kretsløpet (Fetch/Execute Cycle) i en moderne datamaskin utføres",
-
     answer1: "En gang i sekundet",
     answer2: "Tusenvis av gangeri sekunder",
     answer3: "Hundretusenvis av ganger i sekundet",
@@ -2463,7 +2413,6 @@ const questions = [
   },
   {
     question: "Hva kjennetegner inkrementell programvareutvikling?",
-
     answer1:
       "Utvikler programvaren i de klart avskilte fasene krav, design, implementasjon, testing osv.",
     answer2: "Utvikler programvaren uten noen plan eller prosess",
@@ -2474,7 +2423,6 @@ const questions = [
   {
     question:
       "I setningen “På Værnes regnet det forrige uke følgende: 6mm 3mm 12mm 4mm 0mm 8mm 6mm” vil delen ”På Værnes regnet det forrige uke følgende:” være:",
-
     answer1: "Informasjon",
     answer2: "Data",
     answer3: "Metadata",
@@ -2484,7 +2432,6 @@ const questions = [
   {
     question:
       "Det finnes flere forskjellige typer lagring av data i en datamaskin. Hvilket av alternativene rangerer disse typene fra raskest til tregest?",
-
     answer1: "Registre -> cache -> primærminnet -> sekundærminnet",
     answer2: "Registre -> primærminnet -> sekundærminnet -> cache",
     answer3: "Cache -> registre -> primærminnet -> sekundærminnet",
@@ -2494,7 +2441,6 @@ const questions = [
   {
     question:
       "Når du sitter hjemme og leser nyheter på nettsidene til Adresseavisa så vil din datamaskin typisk være hva når det gjelder datakommunikasjon?",
-
     answer1: "Tjener",
     answer2: "Klient",
     answer3: "Bruker",
@@ -2504,7 +2450,6 @@ const questions = [
   {
     question:
       "Hvor mange bits trenger du for å kode de 29 bokstavene i vårt alfabet ved enkel koding der alle bokstavene er representert med samme antall bits?",
-
     answer1: "4",
     answer2: "5",
     answer3: "6",
@@ -2514,7 +2459,6 @@ const questions = [
   {
     question:
       "Gitt en sortert liste på 4000 verdier. Hvor mange sammenligninger må vi i verste fall gjøre for å søke etter en verdi som ikke finnes i lista ved bruk av binærsøk?",
-
     answer1: "8",
     answer2: "12",
     answer3: "48",
@@ -2524,7 +2468,6 @@ const questions = [
   {
     question:
       "Hvor mange forskjellige verdier kan representeres ved hjelp av 8 bits?",
-
     answer1: "128",
     answer2: "255",
     answer3: "256",
@@ -2534,7 +2477,6 @@ const questions = [
   {
     question:
       "Hva får man når man multipliserer binærtallene 1011 og 11001 med hverandre?",
-
     answer1: "101111001",
     answer2: "100010011",
     answer3: "110011011",
@@ -2544,7 +2486,6 @@ const questions = [
   {
     question:
       "Hva er fordelen med inkrementell utviklingsmetode sammenliknet med vannfallsmetoden?",
-
     answer1:
       "Med inkrementell utvikling fullføres faser som f.eks. kravspesifikasjon helt ferdig før man går videre",
     answer2:
@@ -2558,7 +2499,6 @@ const questions = [
   {
     question:
       "Hvilken av disse enhetene benytter seg av IP-adresser for å videreformidle informasjon på nettverket?",
-
     answer1: "Nav (Hub)",
     answer2: "Svitsj (Switch)",
     answer3: "Ruter (Router)",
@@ -2567,7 +2507,6 @@ const questions = [
   },
   {
     question: "Hvilken av de følgende er en lovlig IP-addresse?",
-
     answer1: "116.259.241.13",
     answer2: "8.7.9.2",
     answer3: "12.234.12.104.77",
@@ -2576,7 +2515,6 @@ const questions = [
   },
   {
     question: "Hva betyr synbarhet ved programmering av funksjoner/metoder?",
-
     answer1: "Alle variabler kommer tydelig frem ved listing",
     answer2: "Variabler kan nåes fra hovedkoden",
     answer3:
@@ -2586,7 +2524,6 @@ const questions = [
   },
   {
     question: "Hvorfor komprimeres data?",
-
     answer1: "For at det skal ta mindre plass",
     answer2: "For at det skal kunne gjøres tilgjengelig for alle på Internett",
     answer3: "For at data ikke skal kunne leses av uvedkommende",
@@ -2595,7 +2532,6 @@ const questions = [
   },
   {
     question: "Hva er en protokoll?",
-
     answer1: "Et sett av kommunikasjonsregler",
     answer2:
       "Et program som oversetter programmeringskode til kode som kan kjøres på en datamaskin",
@@ -2605,7 +2541,6 @@ const questions = [
   },
   {
     question: "Hva brukes en prosessor hovedsakelig til?",
-
     answer1:
       "Direkte kjøre kode skrevet i JSP, Matlab eller andre programmeringsspråk",
     answer2: "Utføre regneoperasjoner på og sammenlikninger av registre",
@@ -2617,7 +2552,6 @@ const questions = [
   {
     question:
       "I hvilket tilfelle kan man IKKE benytte seg av binærsøkalgoritmen?",
-
     answer1: "Når man har for stor datamengde (tar for lang tid)",
     answer2: "Når dataene ikke er sortert",
     answer3: "Når man ikke vet om det man søker etter finnes i dataene",
@@ -2634,7 +2568,6 @@ const questions = [
   },
   {
     question: "Hva er hovedoppgaven til kontrollenheten i en prosessor?",
-
     answer1:
       "Holde orden på hvor langt prosessoren har kommet i JSP- eller Matlabprogrammet",
     answer2: "Kontrollere at regneoperasjonene i ALU er korrekte",
@@ -2645,7 +2578,6 @@ const questions = [
   {
     question:
       "TCP/IP er en samling av protokoller som inneholder protokollene:",
-
     answer1: "HTTP, HTML, PHP, TCP, SMTP",
     answer2: "HTTP, FTP, TCP, IP, SMTP",
     answer3: "Kun TCP og IP",
@@ -2654,7 +2586,6 @@ const questions = [
   },
   {
     question: "Hva er den viktigste oppgaven til en nettverksruter?",
-
     answer1: "Koble sammen flere nettverkssegmenter av samme type",
     answer2: "Forsterke og rense signaler i nettverket",
     answer3: "Koble sammen ulike nettverk og nettverkssegmenter",
@@ -2664,7 +2595,6 @@ const questions = [
   {
     question:
       "Minnehierarki i en datamaskin sortert på hastighet er som følger:",
-
     answer1: "registre, cache, primærminne, sekundærminne",
     answer2: "cache, registre, primærminne, sekundærminne",
     answer3: "primærminne, cache, registre, sekundærminne",
@@ -2699,7 +2629,6 @@ const questions = [
   },
   {
     question: "Hva er den viktigste oppgaven til en nettverkssvitsj?",
-
     answer1: "Sørge for at alle påkoblede maskiner mottar alle datapakker.",
     answer2: "Overvåke og stenge ute uønsket nettverkstrafikk.",
     answer3:
@@ -2718,7 +2647,6 @@ const questions = [
   },
   {
     question: "Testing av programkode vil si at man:",
-
     answer1: "Går gjennom programkoden og prøver å finne feil.",
     answer2: "Lar noen utvalgte brukere prøve systemet.",
     answer3:
@@ -2729,7 +2657,6 @@ const questions = [
   {
     question:
       "Hva er fordelen med asymmetrisk kryptering fremfor symmetrisk kryptering?",
-
     answer1: "Man kan publisere den ene nøkkelen.",
     answer2:
       "Det er vanskeligere å knekke koden fordi man må finne to ulike nøkler.",
@@ -2740,7 +2667,6 @@ const questions = [
   },
   {
     question: "Hva er nettverkstjenester?",
-
     answer1: "E-post, filoverføring og trådløst nettverk.",
     answer2: "Fildeling, WWW og e-post.",
     answer3: "Filoverføring, TCP/IP og WWW.",
@@ -2749,7 +2675,6 @@ const questions = [
   },
   {
     question: "CPU er forkortelse for:",
-
     answer1: "Central Pipelining Unit.",
     answer2: "Coordinating Processor Unit.",
     answer3: "Central Processing Unit.",
@@ -2759,7 +2684,6 @@ const questions = [
   {
     question:
       "Et tall av typen double lagres i 8 byte. Omtrent hvor mange slike tall kan lagres i en gigabyte (GB)?",
-
     answer1: "Ca. 134 000.",
     answer2: "Over 100 millioner.",
     answer3: "Omtrent en milliard.",
@@ -2768,7 +2692,6 @@ const questions = [
   },
   {
     question: "På hvilken måte skiller harddisk seg fra primærminne (RAM):",
-
     answer1: "Det tar lengre tid å skrive eller lese.",
     answer2: "Dataene er sikre mot strømbrudd.",
     answer3: "Begge utsagnene er feil.",
@@ -2777,7 +2700,6 @@ const questions = [
   },
   {
     question: "A and (B or C) er True (sant) for:",
-
     answer1: "A True, B True, C False",
     answer2: "A True, B False, C False",
     answer3: "A False, B True, C True",
@@ -2787,7 +2709,6 @@ const questions = [
   {
     question:
       "Hovedgrunnen til at vi deler opp lengre programmer ved å bruke metoder:",
-
     answer1: "Det går raskere å kjøre programmet.",
     answer2: "Programmet får høyere funksjonalitet.",
     answer3: "Det er lettere å forstå programmet.",
@@ -2796,7 +2717,6 @@ const questions = [
   },
   {
     question: "Hva stemmer ikke om kommentarer i programkode?",
-
     answer1: "Programmet tar større plass på harddisken.",
     answer2: "De gjør det lettere å forstå koden.",
     answer3: "Programmet kjører langsommere.",
@@ -2806,7 +2726,6 @@ const questions = [
   {
     question:
       "Hvor mange bit trenger du til å kode det norske alfabetet (29 forskjellige bokstaver) ved enkel koding hvor alle symbolene er representert med samme antall bit.",
-
     answer1: "5 bits",
     answer2: "6 bits",
     answer3: "8 bits",
@@ -2816,7 +2735,6 @@ const questions = [
   {
     question:
       "Hvilken type minne har normalt høyest tilgangstid (access time) i en datamaskin?",
-
     answer1: "Registre",
     answer2: "Cache",
     answer3: "Primærminne",
@@ -2825,7 +2743,6 @@ const questions = [
   },
   {
     question: "En ulempe med åpen kildekode (open source) er:",
-
     answer1: "Du kan ikke endre produktet selv",
     answer2: "Det er store firma står som regel bak utviklingen",
     answer3: "Du har normalt ikke krav på brukerstøtte",
@@ -2834,7 +2751,6 @@ const questions = [
   },
   {
     question: "Hva er svart-boks testing?",
-
     answer1:
       "Testing som konsentrerer seg om systemets eller modulens indre oppbygning",
     answer2:
@@ -2846,7 +2762,6 @@ const questions = [
   },
   {
     question: "Hva er kjernen i et operativsystem?",
-
     answer1: "Den delen som tar i mot input fra brukeren",
     answer2: "Den delen som administrerer maskinressurser",
     answer3: "Det mediet som operativsystemet installeres fra",
@@ -2855,7 +2770,6 @@ const questions = [
   },
   {
     question: "Hvorfor krypteres data?",
-
     answer1: "For at data ikke skal kunne leses av uvedkommende",
     answer2: "For at det skal ta mindre plass",
     answer3: "For at det skal kunne gjøres tilgjengelig for alle på Internett",
@@ -2864,7 +2778,6 @@ const questions = [
   },
   {
     question: "En protokoll er:",
-
     answer1:
       "Et program som oversetter kildekode til maskinkode slik at det kan kjøres på en datamaskin",
     answer2: "En enhet som gjør beregninger og sammenlikninger i en datamaskin",
@@ -2874,7 +2787,6 @@ const questions = [
   },
   {
     question: "Er binærsøk alltid raskere enn sekvensielt søk?",
-
     answer1: "Binærsøk er alltid raskere enn sekvensielt søk uansett",
     answer2:
       "Binærsøk er alltid raskere enn sekvensielt søk på sorterte datamengder",
@@ -2884,7 +2796,6 @@ const questions = [
   },
   {
     question: "Hva gjør man når man designer et system under systemutvikling?",
-
     answer1: "Beskriver hva systemet skal gjøre",
     answer2: "Beskriver hvordan systemet skal lages",
     answer3: "Beskriver kun hvordan systemet skal se ut",
@@ -2901,7 +2812,6 @@ const questions = [
   },
   {
     question: "Hva er inspeksjon i systemutvikling?",
-
     answer1:
       "Inspeksjon innebærer å finne feil eller forsikre seg om at feil ikke finnes uten å kjøre programmet",
     answer2:
@@ -2912,7 +2822,6 @@ const questions = [
   },
   {
     question: "Hva er en normal konfigurasjon av en klient-tjener arkitektur?",
-
     answer1: "Få tjenere, mange klienter",
     answer2: "Mange tjenere, få klienter",
     answer3: "Mange tjenere, mange klienter",
@@ -2922,7 +2831,6 @@ const questions = [
   {
     question:
       "En bit av et program består av ei for-løkke inne i ei for-løkke. Begge løkkene løper igjennom tallverdiene 1:N. Tidsforbruket til denne programbiten vil være proporsjonalt med -",
-
     answer1: "N",
     answer2: "N log N",
     answer3: "N^2",
@@ -2932,7 +2840,6 @@ const questions = [
   {
     question:
       "Gitt ei sortert liste av 272 verdier. Vi søker etter en verdi som ikke finnes i lista. Hvor mange sammenligninger må vi i verste fall gjøre ved bruk av binærsøk?",
-
     answer1: "136",
     answer2: "8",
     answer3: "9",
