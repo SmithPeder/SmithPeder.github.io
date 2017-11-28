@@ -100,7 +100,7 @@ function updateScores() {
   score.getElementsByTagName("span")[0].innerHTML = right;
   score.getElementsByTagName("span")[1].innerHTML = wrong;
   score.getElementsByTagName("span")[2].innerHTML =
-    right + "/" + asked.length + " (" + (right - 0.5*wrong) + ")";
+    right + "/" + asked.length + " (" + (right - wrong) + ")";
   score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }
