@@ -7,17 +7,13 @@
     "test": "webpack",
     "start": "webpack-dev-server",
     "clean": "rm -rf dist",
-    "build": "npm run clean && webpack",
-    "deploy": "npm run build && gh-pages -d dist -m \"Updates --skip-ci\""
+    "build": "npm run clean && webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SmithPeder/SmithPeder.github.io.git"
   },
-  "keywords": [
-    "homepage",
-    "landingpage"
-  ],
+  "keywords": ["homepage", "landingpage"],
   "author": "Peder Smith",
   "license": "ISC",
   "dependencies": {
