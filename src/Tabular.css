@@ -1,0 +1,17 @@
+th,
+td {
+  color: rgb(170, 170, 170);
+}
+
+tr {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

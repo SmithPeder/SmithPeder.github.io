@@ -1,0 +1,14 @@
+.root {
+  margin-top: 80px;
+}
+
+.line {
+  max-width: 700px;
+}
+
+.txt {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  color: rgb(170, 170, 170);
+}
