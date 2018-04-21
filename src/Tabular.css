@@ -5,6 +5,7 @@ td {
 
 tr {
   width: 300px;
+  min-width: 300px;
   display: flex;
   justify-content: space-between;
   margin: 10px 0;

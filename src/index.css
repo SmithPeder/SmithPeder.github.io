@@ -1,0 +1,17 @@
+.imgrow {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  min-width: 300px;
+  margin: 20px auto;
+  transition: 0.4s;
+}
+
+.imgrow a {
+  margin: 0 20px;
+}
+
+.imgrow a:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}

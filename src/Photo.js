@@ -3,11 +3,17 @@ import styles from './Photo.css';
 
 class Photo extends Component {
   render() {
-    return (
+    const { title, src, size, link } = this.props;
+
+    return size === 'large' ? (
       <div className={styles.root}>
-        <img className={styles.img} src="src/img/me.png" />
-        <h1>Peder Smith</h1>
+        <img className={styles.large} src={src} />
+        <h1>{title}</h1>
       </div>
+    ) : (
+      <a href={link} target="_blank">
+        <img className={styles.small} src={src} />
+      </a>
     );
   }
 }
