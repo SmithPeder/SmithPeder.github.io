@@ -24,7 +24,8 @@ a {
 }
 
 @media (min-resolution: 150dpi) {
-  tr th {
-    font-size: 20px;
+  tr {
+    font-size: 30px;
+    width: 60%;
   }
 }

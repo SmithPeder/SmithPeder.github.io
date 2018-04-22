@@ -45,7 +45,6 @@ hr.line {
 
 @media (min-resolution: 150dpi) {
   hr.line {
-    min-width: 95%;
-    max-width: none;
+    max-width: 95%;
   }
 }
