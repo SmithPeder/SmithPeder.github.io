@@ -1,6 +1,7 @@
 th,
 td {
-  color: rgb(170, 170, 170);
+  color: rgba(160, 160, 160, 1);
+  font-weight: normal;
 }
 
 tr {
@@ -9,6 +10,11 @@ tr {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(18, 151, 224, 1);
 }
 
 .root {

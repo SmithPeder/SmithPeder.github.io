@@ -26,14 +26,15 @@ const App = () => {
       <Photo title="Peder Smith" src="src/img/me.png" size="large" />
       <Line txt="About me" />
       <p className={styles.info}>
-        Freshman at Norwegian University of Science and Technology pursuing a
-        master's degree in Communication Technology. Interested in everything
-        related to technology and programming. Along side university I volunteer
-        as a developer for the open-source website{' '}
+        Civil engineering freshman at Norwegian University of Science and
+        Technology pursuing a master's degree in Communication Technology.
+        Interested in everything related to technology and programming.
+        Alongside university I volunteer as a developer on the open-source
+        website{' '}
         <a href="https://www.abakus.no" target="_blank">
           abakus.no
         </a>{' '}
-        for the student organization Abakus.
+        for the student organization Abakus which I am a part of.
       </p>
       <Line txt="Contact me" />
       <Tabular info={info} />

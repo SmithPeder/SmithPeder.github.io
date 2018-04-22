@@ -6,8 +6,16 @@ class Tabular extends Component {
     const { info } = this.props;
     const row = Object.keys(info).map(key => (
       <tr>
-        <th>{key}:</th>
-        <th>{info[key]}</th>
+        <th>{key}</th>
+        <th>
+          {key == 'email' ? (
+            <a href={`mailto:${info[key]}`} target="_blank">
+              {info[key]}
+            </a>
+          ) : (
+            info[key]
+          )}
+        </th>
       </tr>
     ));
 

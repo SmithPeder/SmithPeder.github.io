@@ -97,7 +97,7 @@
 	    return _react2['default'].createElement(_PhotoJs2['default'], { src: 'src/img/' + key + '.png', link: social[key] });
 	  });
 
-	  return _react2['default'].createElement('div', null, _react2['default'].createElement(_PhotoJs2['default'], { title: 'Peder Smith', src: 'src/img/me.png', size: 'large' }), _react2['default'].createElement(_LineJs2['default'], { txt: 'About me' }), _react2['default'].createElement('p', { className: _indexCss2['default'].info }, 'Freshman at Norwegian University of Science and Technology pursuing a master\'s degree in Communication Technology. Interested in everything related to technology and programming. Along side university I volunteer as a developer for the open-source website', ' ', _react2['default'].createElement('a', { href: 'https://www.abakus.no', target: '_blank' }, 'abakus.no'), ' ', 'for the student organization Abakus.'), _react2['default'].createElement(_LineJs2['default'], { txt: 'Contact me' }), _react2['default'].createElement(_TabularJs2['default'], { info: info }), _react2['default'].createElement(_LineJs2['default'], { txt: 'Find me' }), _react2['default'].createElement('div', { className: _indexCss2['default'].imgrow }, socialImages));
+	  return _react2['default'].createElement('div', null, _react2['default'].createElement(_PhotoJs2['default'], { title: 'Peder Smith', src: 'src/img/me.png', size: 'large' }), _react2['default'].createElement(_LineJs2['default'], { txt: 'About me' }), _react2['default'].createElement('p', { className: _indexCss2['default'].info }, 'Civil engineering freshman at Norwegian University of Science and Technology pursuing a master\'s degree in Communication Technology. Interested in everything related to technology and programming. Alongside university I volunteer as a developer on the open-source website', ' ', _react2['default'].createElement('a', { href: 'https://www.abakus.no', target: '_blank' }, 'abakus.no'), ' ', 'for the student organization Abakus which I am a part of.'), _react2['default'].createElement(_LineJs2['default'], { txt: 'Contact me' }), _react2['default'].createElement(_TabularJs2['default'], { info: info }), _react2['default'].createElement(_LineJs2['default'], { txt: 'Find me' }), _react2['default'].createElement('div', { className: _indexCss2['default'].imgrow }, socialImages));
 	};
 	_reactDom2['default'].render(_react2['default'].createElement(App, null), document.getElementById('root'));
 
@@ -19607,7 +19607,7 @@
 
 
 	// module
-	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgb(170, 170, 170);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 300px;\n  height: 300px;\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n", ""]);
+	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 300px;\n  height: 300px;\n}\n\n@media (max-resolution: 1dppx) {\n  .Photo__large___FEUoj {\n    width: 500px;\n    height: 500px;\n  }\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20020,7 +20020,7 @@
 
 
 	// module
-	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\nhr.Line__line___3W_qT {\n  max-width: 700px;\n  border: 0;\n  height: 2px;\n  background-image: -webkit-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -moz-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -ms-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -o-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgb(170, 170, 170);\n}\n", ""]);
+	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\nhr.Line__line___3W_qT {\n  max-width: 700px;\n  border: 0;\n  height: 2px;\n  background-image: -webkit-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -moz-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -ms-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -o-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20108,7 +20108,7 @@
 	      var info = this.props.info;
 
 	      var row = Object.keys(info).map(function (key) {
-	        return _react2['default'].createElement('tr', null, _react2['default'].createElement('th', null, key, ':'), _react2['default'].createElement('th', null, info[key]));
+	        return _react2['default'].createElement('tr', null, _react2['default'].createElement('th', null, key), _react2['default'].createElement('th', null, key == 'email' ? _react2['default'].createElement('a', { href: 'mailto:' + info[key], target: '_blank' }, info[key]) : info[key]));
 	      });
 
 	      return _react2['default'].createElement('div', { className: _TabularCss2['default'].root }, row);
@@ -20156,7 +20156,7 @@
 
 
 	// module
-	exports.push([module.id, "th,\ntd {\n  color: rgb(170, 170, 170);\n}\n\ntr {\n  width: 300px;\n  min-width: 300px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 0;\n}\n\n.Tabular__root___3tMd5 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", ""]);
+	exports.push([module.id, "th,\ntd {\n  color: rgba(160, 160, 160, 1);\n  font-weight: normal;\n}\n\ntr {\n  width: 300px;\n  min-width: 300px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 0;\n}\n\na {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n\n.Tabular__root___3tMd5 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20198,7 +20198,7 @@
 
 
 	// module
-	exports.push([module.id, ".index__imgrow___1rDwM {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  min-width: 300px;\n  margin: 20px auto;\n  transition: 0.4s;\n}\n\n.index__imgrow___1rDwM a {\n  margin: 0 20px;\n}\n\n.index__imgrow___1rDwM a:hover {\n  opacity: 0.5;\n  transition: 0.4s;\n}\n\n.index__info___3SzbH {\n  color: rgb(170, 170, 170);\n  width: 600px;\n  margin: auto;\n  text-align: justify;\n}\n\n.index__info___3SzbH a {\n  text-decoration: none;\n  color: rgb(18, 151, 224);\n}\n", ""]);
+	exports.push([module.id, ".index__imgrow___1rDwM {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  min-width: 300px;\n  margin: 20px auto;\n  transition: 0.4s;\n}\n\n.index__imgrow___1rDwM a {\n  margin: 0 20px;\n}\n\n.index__imgrow___1rDwM a:hover {\n  opacity: 0.5;\n  transition: 0.4s;\n}\n\n.index__info___3SzbH {\n  color: rgba(160, 160, 160, 1);\n  width: 600px;\n  margin: auto;\n  text-align: justify;\n}\n\n.index__info___3SzbH a {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n", ""]);
 
 	// exports
 	exports.locals = {
