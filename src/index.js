@@ -28,12 +28,12 @@ const App = () => {
       <p className={styles.info}>
         Freshman at Norwegian University of Science and Technology pursuing a
         master's degree in Communication Technology. Interested in everything
-        related to technology and programming. Along side school I volunteer as
-        a developer for the open-source website{' '}
+        related to technology and programming. Along side university I volunteer
+        as a developer for the open-source website{' '}
         <a href="https://www.abakus.no" target="_blank">
           abakus.no
         </a>{' '}
-        which is the website for the student organization Abakus.
+        for the student organization Abakus.
       </p>
       <Line txt="Contact me" />
       <Tabular info={info} />
