@@ -27,3 +27,11 @@
   text-decoration: none;
   color: rgba(18, 151, 224, 1);
 }
+
+@media (min-resolution: 150dpi) {
+  .info {
+    width: 90%;
+    font-size: 0.8em;
+    margin-top: 16px;
+  }
+}

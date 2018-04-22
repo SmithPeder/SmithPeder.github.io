@@ -42,3 +42,10 @@ hr.line {
   text-align: center;
   color: rgba(102, 102, 102, 1);
 }
+
+@media (min-resolution: 150dpi) {
+  hr.line {
+    min-width: 95%;
+    max-width: none;
+  }
+}

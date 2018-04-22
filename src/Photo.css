@@ -16,19 +16,28 @@
 
 .large {
   margin: auto;
-  width: 500px;
-  height: 500px;
-}
-
-@media (max-resolution: 1dppx) {
-  .large {
-    width: 300px;
-    height: 300px;
-  }
+  width: 300px;
+  height: 300px;
 }
 
 .small {
   margin: auto;
   width: 40px;
   height: 40px;
+}
+
+@media (min-resolution: 150dpi) {
+  .large {
+    width: 500px;
+    height: 500px;
+  }
+
+  .root h1 {
+    font-size: 70px;
+  }
+
+  .small {
+    width: 55px;
+    height: 55px;
+  }
 }
