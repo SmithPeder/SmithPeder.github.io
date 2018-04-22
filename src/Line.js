@@ -6,7 +6,7 @@ class Line extends Component {
     const { txt } = this.props;
     return (
       <div className={styles.root}>
-        <h1 className={styles.txt}>{txt}</h1>
+        {txt && <h1 className={styles.txt}>{txt}</h1>}
         <hr className={styles.line} />
       </div>
     );
