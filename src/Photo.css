@@ -16,14 +16,14 @@
 
 .large {
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
 }
 
 @media (max-resolution: 1dppx) {
   .large {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
   }
 }
 

@@ -19607,7 +19607,7 @@
 
 
 	// module
-	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 300px;\n  height: 300px;\n}\n\n@media (max-resolution: 1dppx) {\n  .Photo__large___FEUoj {\n    width: 500px;\n    height: 500px;\n  }\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n", ""]);
+	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 500px;\n  height: 500px;\n}\n\n@media (max-resolution: 1dppx) {\n  .Photo__large___FEUoj {\n    width: 300px;\n    height: 300px;\n  }\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n", ""]);
 
 	// exports
 	exports.locals = {
