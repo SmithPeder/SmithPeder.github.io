@@ -19607,7 +19607,7 @@
 
 
 	// module
-	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 500px;\n  height: 500px;\n}\n\n@media (max-resolution: 1dppx) {\n  .Photo__large___FEUoj {\n    width: 300px;\n    height: 300px;\n  }\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n", ""]);
+	exports.push([module.id, ".Photo__root___2c7cY {\n  margin-top: 100px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n\n.Photo__root___2c7cY h1 {\n  font-size: 50px;\n  margin: 0;\n  min-width: 300px;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n.Photo__large___FEUoj {\n  margin: auto;\n  width: 300px;\n  height: 300px;\n}\n\n.Photo__small___2twdt {\n  margin: auto;\n  width: 40px;\n  height: 40px;\n}\n\n@media (min-resolution: 150dpi) {\n  .Photo__large___FEUoj {\n    width: 500px;\n    height: 500px;\n  }\n\n  .Photo__root___2c7cY h1 {\n    font-size: 70px;\n  }\n\n  .Photo__small___2twdt {\n    width: 55px;\n    height: 55px;\n  }\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20020,7 +20020,7 @@
 
 
 	// module
-	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\nhr.Line__line___3W_qT {\n  max-width: 700px;\n  border: 0;\n  height: 2px;\n  background-image: -webkit-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -moz-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -ms-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -o-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n", ""]);
+	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\nhr.Line__line___3W_qT {\n  max-width: 700px;\n  border: 0;\n  height: 2px;\n  background-image: -webkit-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -moz-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -ms-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n  background-image: -o-linear-gradient(\n    left,\n    #f0f0f0,\n    rgba(102, 102, 102, 1),\n    #f0f0f0\n  );\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgba(102, 102, 102, 1);\n}\n\n@media (min-resolution: 150dpi) {\n  hr.Line__line___3W_qT {\n    max-width: 95%;\n  }\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20156,7 +20156,7 @@
 
 
 	// module
-	exports.push([module.id, "th,\ntd {\n  color: rgba(160, 160, 160, 1);\n  font-weight: normal;\n}\n\ntr {\n  width: 300px;\n  min-width: 300px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 0;\n}\n\na {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n\n.Tabular__root___3tMd5 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", ""]);
+	exports.push([module.id, "th,\ntd {\n  color: rgba(160, 160, 160, 1);\n  font-weight: normal;\n}\n\ntr {\n  width: 300px;\n  min-width: 300px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 0;\n}\n\na {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n\n.Tabular__root___3tMd5 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n@media (min-resolution: 150dpi) {\n  tr {\n    font-size: 30px;\n    width: 60%;\n  }\n}\n", ""]);
 
 	// exports
 	exports.locals = {
@@ -20198,7 +20198,7 @@
 
 
 	// module
-	exports.push([module.id, ".index__imgrow___1rDwM {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  min-width: 300px;\n  margin: 20px auto;\n  transition: 0.4s;\n}\n\n.index__imgrow___1rDwM a {\n  margin: 0 20px;\n}\n\n.index__imgrow___1rDwM a:hover {\n  opacity: 0.5;\n  transition: 0.4s;\n}\n\n.index__info___3SzbH {\n  color: rgba(160, 160, 160, 1);\n  width: 600px;\n  margin: auto;\n  text-align: justify;\n}\n\n.index__info___3SzbH a {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n", ""]);
+	exports.push([module.id, ".index__imgrow___1rDwM {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  min-width: 300px;\n  margin: 20px auto;\n  transition: 0.4s;\n}\n\n.index__imgrow___1rDwM a {\n  margin: 0 20px;\n}\n\n.index__imgrow___1rDwM a:hover {\n  opacity: 0.5;\n  transition: 0.4s;\n}\n\n.index__info___3SzbH {\n  color: rgba(160, 160, 160, 1);\n  width: 600px;\n  margin: auto;\n  text-align: justify;\n}\n\n.index__info___3SzbH a {\n  text-decoration: none;\n  color: rgba(18, 151, 224, 1);\n}\n\n@media (min-resolution: 150dpi) {\n  .index__info___3SzbH {\n    width: 90%;\n    font-size: 0.8em;\n    margin-top: 16px;\n  }\n}\n", ""]);
 
 	// exports
 	exports.locals = {
