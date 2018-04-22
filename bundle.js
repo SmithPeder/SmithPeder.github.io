@@ -97,7 +97,7 @@
 	    return _react2['default'].createElement(_PhotoJs2['default'], { src: 'src/img/' + key + '.png', link: social[key] });
 	  });
 
-	  return _react2['default'].createElement('div', null, _react2['default'].createElement(_PhotoJs2['default'], { title: 'Peder Smith', src: 'src/img/me.png', size: 'large' }), _react2['default'].createElement(_LineJs2['default'], { txt: 'About me' }), _react2['default'].createElement('p', { className: _indexCss2['default'].info }, 'Freshman at Norwegian University of Science and Technology pursuing a master\'s degree in Communication Technology. Interested in everything related to technology and programming. Along side school I volunteer as a developer for the open-source website', ' ', _react2['default'].createElement('a', { href: 'https://www.abakus.no', target: '_blank' }, 'abakus.no'), ' ', 'which is the website for the student organization Abakus.'), _react2['default'].createElement(_LineJs2['default'], { txt: 'Contact me' }), _react2['default'].createElement(_TabularJs2['default'], { info: info }), _react2['default'].createElement(_LineJs2['default'], { txt: 'Find me' }), _react2['default'].createElement('div', { className: _indexCss2['default'].imgrow }, socialImages));
+	  return _react2['default'].createElement('div', null, _react2['default'].createElement(_PhotoJs2['default'], { title: 'Peder Smith', src: 'src/img/me.png', size: 'large' }), _react2['default'].createElement(_LineJs2['default'], { txt: 'About me' }), _react2['default'].createElement('p', { className: _indexCss2['default'].info }, 'Freshman at Norwegian University of Science and Technology pursuing a master\'s degree in Communication Technology. Interested in everything related to technology and programming. Along side university I volunteer as a developer for the open-source website', ' ', _react2['default'].createElement('a', { href: 'https://www.abakus.no', target: '_blank' }, 'abakus.no'), ' ', 'for the student organization Abakus.'), _react2['default'].createElement(_LineJs2['default'], { txt: 'Contact me' }), _react2['default'].createElement(_TabularJs2['default'], { info: info }), _react2['default'].createElement(_LineJs2['default'], { txt: 'Find me' }), _react2['default'].createElement('div', { className: _indexCss2['default'].imgrow }, socialImages));
 	};
 	_reactDom2['default'].render(_react2['default'].createElement(App, null), document.getElementById('root'));
 
@@ -19975,7 +19975,7 @@
 	    value: function render() {
 	      var txt = this.props.txt;
 
-	      return _react2['default'].createElement('div', { className: _LineCss2['default'].root }, _react2['default'].createElement('h1', { className: _LineCss2['default'].txt }, txt), _react2['default'].createElement('hr', { className: _LineCss2['default'].line }));
+	      return _react2['default'].createElement('div', { className: _LineCss2['default'].root }, txt && _react2['default'].createElement('h1', { className: _LineCss2['default'].txt }, txt), _react2['default'].createElement('hr', { className: _LineCss2['default'].line }));
 	    }
 	  }]);
 
@@ -20020,7 +20020,7 @@
 
 
 	// module
-	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\n.Line__line___3W_qT {\n  max-width: 700px;\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgb(170, 170, 170);\n}\n", ""]);
+	exports.push([module.id, ".Line__root___6SZYI {\n  margin-top: 80px;\n}\n\n.Line__root___6SZYI h1 {\n  min-width: 300px;\n}\n\nhr.Line__line___3W_qT {\n  max-width: 700px;\n  border: 0;\n  height: 2px;\n  background-image: -webkit-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -moz-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -ms-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n  background-image: -o-linear-gradient(\n    left,\n    #f0f0f0,\n    rgb(170, 170, 170),\n    #f0f0f0\n  );\n}\n\n.Line__txt___p5lVK {\n  font-size: 25px;\n  margin: 0;\n  text-align: center;\n  color: rgb(170, 170, 170);\n}\n", ""]);
 
 	// exports
 	exports.locals = {
