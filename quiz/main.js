@@ -70,7 +70,7 @@ function chooseAnswer(self, answer) {
   } else {
     //Wrong
     self.style.background = "#F75C4C"; //Red
-    wrong++;
+    wrong = wrong + 1/2;
     section.getElementsByTagName("button")[
       questions[questionNum].correctAnswer - 1
     ].style.background =
