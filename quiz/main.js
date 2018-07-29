@@ -70,7 +70,7 @@ function chooseAnswer(self, answer) {
   } else {
     //Wrong
     self.style.background = "#F75C4C"; //Red
-    wrong = wrong + 1/2;
+    wrong++;
     section.getElementsByTagName("button")[
       questions[questionNum].correctAnswer - 1
     ].style.background =
@@ -100,7 +100,7 @@ function updateScores() {
   score.getElementsByTagName("span")[0].innerHTML = right;
   score.getElementsByTagName("span")[1].innerHTML = wrong;
   score.getElementsByTagName("span")[2].innerHTML =
-    right + "/" + asked.length + " (" + (right - wrong) + ")";
+    right + "/" + asked.length + " (" + (right - 1/2*wrong) + ")";
   score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }
