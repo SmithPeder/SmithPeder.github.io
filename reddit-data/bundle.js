@@ -20750,7 +20750,7 @@
 	    _get(Object.getPrototypeOf(Main.prototype), 'constructor', this).call(this, props);
 	    this.state = {
 	      // default usernames for dev
-	      username: 'smithpeder, sigtot, eirikbjorn, green_flash, flluka, olalei',
+	      username: '',
 	      jsonData: []
 	    };
 
@@ -20857,7 +20857,7 @@
 	            type: 'text',
 	            name: 'username',
 	            value: username,
-	            placeholder: 'USERNAME',
+	            placeholder: 'SPLIT NAMES WITH COMMA',
 	            onChange: this.handleChangeUsername
 	          }),
 	          _react2['default'].createElement('input', { type: 'submit', value: 'Get Data', onClick: this.handleSubmit })
@@ -24390,7 +24390,7 @@
 
 
 	// module
-	exports.push([module.id, ".Main__root___2pBCi {\n  width: 100%;\n  margin: auto;\n}\n\n.Main__form___3LcCz {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  flex-direction: column;\n  margin: auto;\n  margin-top: 40px;\n}\n\n.Main__form___3LcCz input {\n  margin-bottom: 10px;\n  text-align: center;\n}\n\n.Main__tablewrapper___1hC-- {\n  width: 800px;\n  margin: auto;\n}\n\ninput[type='text'] {\n  padding: 5px;\n  border: 2px solid rgb(255, 86, 1);\n  -webkit-border-radius: 5px;\n  border-radius: 5px;\n  font-family: 'Raleway', sans-serif;\n}\n\ninput[type='text']:focus {\n  border-color: rgb(255, 86, 1);\n  font-family: 'Raleway', sans-serif;\n}\n\ninput[type='submit'] {\n  padding: 10px;\n  background: rgb(255, 86, 1);\n  color: white;\n  border: 0 none;\n  cursor: pointer;\n  -webkit-border-radius: 5px;\n  border-radius: 5px;\n  font-family: 'Raleway', sans-serif;\n  outline: 0;\n}\n\n::-webkit-input-placeholder {\n  /* Chrome/Opera/Safari */\n  color: rgba(255, 86, 1, 0.5);\n}\n::-moz-placeholder {\n  /* Firefox 19+ */\n  color: rgba(255, 86, 1, 0.5);\n}\n:-ms-input-placeholder {\n  /* IE 10+ */\n  color: rgba(255, 86, 1, 0.5);\n}\n:-moz-placeholder {\n  /* Firefox 18- */\n  color: rgba(255, 86, 1, 0.5);\n}\n", ""]);
+	exports.push([module.id, ".Main__root___2pBCi {\n  width: 100%;\n  margin: auto;\n  font-family: 'Roboto', sans-serif;\n}\n\n.Main__form___3LcCz {\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  flex-direction: column;\n  margin: auto;\n  margin-top: 40px;\n}\n\n.Main__form___3LcCz input {\n  margin-bottom: 10px;\n  text-align: center;\n}\n\n.Main__tablewrapper___1hC-- {\n  width: 800px;\n  margin: auto;\n}\n\ninput[type='text'] {\n  padding: 5px;\n  border: 2px solid rgb(255, 86, 1);\n  -webkit-border-radius: 5px;\n  border-radius: 5px;\n  font-family: 'Raleway', sans-serif;\n}\n\ninput[type='text']:focus {\n  border-color: rgb(255, 86, 1);\n  font-family: 'Raleway', sans-serif;\n}\n\ninput[type='submit'] {\n  padding: 10px;\n  background: rgb(255, 86, 1);\n  color: white;\n  border: 0 none;\n  cursor: pointer;\n  -webkit-border-radius: 5px;\n  border-radius: 5px;\n  font-family: 'Raleway', sans-serif;\n  outline: 0;\n}\n\n::-webkit-input-placeholder {\n  /* Chrome/Opera/Safari */\n  color: rgba(255, 86, 1, 0.5);\n}\n::-moz-placeholder {\n  /* Firefox 19+ */\n  color: rgba(255, 86, 1, 0.5);\n}\n:-ms-input-placeholder {\n  /* IE 10+ */\n  color: rgba(255, 86, 1, 0.5);\n}\n:-moz-placeholder {\n  /* Firefox 18- */\n  color: rgba(255, 86, 1, 0.5);\n}\n", ""]);
 
 	// exports
 	exports.locals = {
