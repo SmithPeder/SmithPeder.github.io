@@ -97,10 +97,11 @@ next.onclick = function() {
 //Get new scores
 function updateScores() {
   //Get stats
+  scorePer = Math.round((right/(right+wrong)) * 100)
   score.getElementsByTagName("span")[0].innerHTML = right;
   score.getElementsByTagName("span")[1].innerHTML = wrong;
   score.getElementsByTagName("span")[2].innerHTML =
-    right + "/" + asked.length + " (" + (right - 1/2*wrong) + ")";
+    "(" + scorePer + "% )";
   score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }
