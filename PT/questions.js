@@ -4,9 +4,9 @@ const questions = [
       "An aircraft with 100kts of Vs (level flight) turns with a bank angle of 45 degrees. Calculate the new Vs",
     answer1: "70",
     answer2: "80",
-    answer3: "90",
-    answer4: "65",
-    correctAnswer: 1
+    answer3: "141",
+    answer4: "118",
+    correctAnswer: 4
   },
   {
     question:
@@ -15,7 +15,7 @@ const questions = [
     answer2: "166",
     answer3: "145 ",
     answer4: "160",
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "How will CL change if IAS is increased from 100kt to 140kt?",
@@ -166,7 +166,7 @@ const questions = [
     answer3: "100kt ",
     answer4: "92kt ",
 
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "The boundary layer: ",
@@ -186,13 +186,13 @@ const questions = [
     answer3: "80",
     answer4: "60",
 
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "What is the mean camber line? ",
     answer1: "A straight line from the leading edge to the trailing edge ",
     answer2:
-      "A line from the leading to the trailing edge equidistant from the upper and lower surfaces  ",
+      "A line from the leading to the trailing edge equidistant from the ƒupper and lower surfaces  ",
     answer3: "The profile of the upper surface of an aerofoil section ",
     answer4: "An arc of circle from the leading edge to the trailing edge ",
 
@@ -260,12 +260,8 @@ const questions = [
     answer4: "Downwash does not change ",
 
     correctAnswer: 2
-  },
-  {
-    question: "Adverse aileron yaw can be reduced by:",
-    answer1: "Rudder? ",
-
-    correctAnswer: 1
+ 
+ 
   },
   {
     question: "Stall speed:",
