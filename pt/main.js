@@ -18,7 +18,7 @@ function randBetween(min, max) {
 }
 
 //Print new question
-function printQuestion() {
+function printQuestion(reset) {
   qNum = chooseQuestion();
   questionNum = qNum;
   section.innerHTML = "<h3>" + questions[qNum].question + "</h3>";
@@ -28,11 +28,18 @@ function printQuestion() {
   createButtonAndAppend("button", questions[qNum].answer4, section, 4);
 }
 
+function reset() {
+  let questionNum = 0;
+  let right = 0;
+  let wrong = 0;
+  let asked = [];
+}
+
 //Generate new question
 function chooseQuestion() {
   //Reset if all questions are asked
-  //if (asked.length == questions.length) {
-  //  asked = [];
+  //if (asked.length - 1 == questions.length) {
+  //  printQuestion((reset = true));
   //}
   //Get random question
   let qNum = randBetween(0, questions.length);
@@ -52,15 +59,6 @@ function createButtonAndAppend(type, text, parent, onclick) {
   parent.appendChild(newElement);
 }
 
-//Create a new textelement and replace content
-function createAndReplace(type, text, parent) {
-  parent.innerHTML = "";
-  let newTextNode = document.createTextNode(text);
-  let newElement = document.createElement(type);
-  newElement.appendChild(newTextNode);
-  parent.appendChild(newElement);
-}
-
 //Choose answer based on user guess
 function chooseAnswer(self, answer) {
   //Correct
@@ -73,8 +71,7 @@ function chooseAnswer(self, answer) {
     wrong++;
     section.getElementsByTagName("button")[
       questions[questionNum].correctAnswer - 1
-    ].style.background =
-      "#1EBC61";
+    ].style.background = "#1EBC61";
   }
   //Make all buttons have no onClick events
   for (i = 0; i < section.getElementsByTagName("button").length; i++) {
@@ -97,11 +94,10 @@ next.onclick = function() {
 //Get new scores
 function updateScores() {
   //Get stats
-  scorePer = Math.round((right/(right+wrong)) * 100)
+  scorePer = Math.round((right / (right + wrong)) * 100);
   score.getElementsByTagName("span")[0].innerHTML = right;
   score.getElementsByTagName("span")[1].innerHTML = wrong;
-  score.getElementsByTagName("span")[2].innerHTML =
-    "(" + scorePer + "% )";
+  score.getElementsByTagName("span")[2].innerHTML = "(" + scorePer + "% )";
   score.getElementsByTagName("span")[3].innerHTML =
     right + wrong + " av " + questions.length;
 }
