@@ -31,9 +31,9 @@ function printQuestion() {
 //Generate new question
 function chooseQuestion() {
   //Reset if all questions are asked
-  if (asked.length == questions.length) {
-    asked = [];
-  }
+  //if (asked.length == questions.length) {
+  //  asked = [];
+  //}
   //Get random question
   let qNum = randBetween(0, questions.length);
   //Make sure the question is not asked before
