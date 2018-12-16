@@ -5,7 +5,7 @@ const questions = [
     answer1: "70",
     answer2: "80",
     answer3: "141",
-    answer4: "118",
+    answer4: "119",
     correctAnswer: 4
   },
   {
@@ -16,6 +16,16 @@ const questions = [
     answer3: "145 ",
     answer4: "160",
     correctAnswer: 2
+ },
+  {
+    question:
+      " For an asymmetrical aerofoil with zero degrees angle of attack and positive camber, the lift force is: ",
+    answer1: "Positive ",
+    answer2: "Negative ",
+    answer3: "Equal ",
+    answer4: "zero",
+    correctAnswer: 1
+
   },
   {
     question: "How will CL change if IAS is increased from 100kt to 140kt?",
@@ -53,11 +63,20 @@ const questions = [
     answer4: "Tapered ",
 
     correctAnswer: 2
+ },
+  {
+    question:
+      "Which of the following statements are correct? ",
+    answer1: "Drag does not react in the same direction as the relative wind and lift perpendicular to it ",
+    answer2: "Drag acts in the same direction as the relative wind and lift perpendicular  ",
+    answer3: "Lift acts perpendicular to the horizontal and drag parallel in a rearwards direction ",
+    answer4: "Lift acts perpendicular to the horizontal and drag parallel in a forwards direction ",
+
+    correctAnswer: 2
   },
   {
     question: "Dihedral of a wing is the angle between: ",
-    answer1:
-      "The wing plane and the horizontal with the aeroplane in an unbanked, level condition",
+    Answer1: "The wing plane and the lateral axis",
     answer2: "The leading edge of the wing and the lateral axis ",
     answer3: "The quearter chord line of the wing and the vertical axis ",
     answer4: "The quarter chord line of the wing and the horizon ",
@@ -72,6 +91,17 @@ const questions = [
     answer4: "Straight Wing, T - tail ",
 
     correctAnswer: 2
+
+ },
+  {
+    question: "What happens to the CP and lift on a symmetrical aerofoil when angle of attack is increased? ",
+    answer1: "The CP moves forward and lift increases",
+    answer2: "The CP remains stationary and lift increases ",
+    answer3: "The CP moves backwards and lift decreases ",
+    answer4: "The CP remains stationary and lift decreases ",
+
+    correctAnswer: 2
+
   },
   {
     question: "The relative thickness of an aerofoil is expressed in ",
@@ -141,6 +171,16 @@ const questions = [
     correctAnswer: 1
   },
   {
+
+ question: "What happens to DI(1) and CDI (2) as speed is decreased from 200kts to 100kts ",
+    answer1: "They become 1. 400% of previuous value 2. 1600% of previous value ",
+    answer2: "They become 1. 600% of previuous value 2. 1800% of previous value ",
+    answer3: "They become 1. 200% of previuous value 2. 1200% of previous value ",
+    answer4: "They become 1. 700% of previuous value 2. 1900% of previous value ",
+
+    correctAnswer: 1
+  },
+  {
     question: "Slots increase the stalling angle of attack by: ",
     answer1: "Increasing leading edge camber ",
     answer2: "Reducing the span wise flow ",
@@ -186,7 +226,7 @@ const questions = [
     answer3: "80",
     answer4: "60",
 
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "What is the mean camber line? ",
@@ -206,6 +246,17 @@ const questions = [
     answer4: "Pdyn + 1/2 rho IAS = Constant ",
 
     correctAnswer: 2
+
+ },
+  {
+    question: "What is correct about force at the tail and its effect on V(s) due to CG movement? ",
+    answer1: "Rearward movement of the CG gives a reduced down force at the tail, Vs will be reduced  ",
+    answer2: "Forward movement of the CG gives a reduced down force at the tail, Vs will be reduced",
+    answer3: "Rearward movement of the CG gives a reduced force at the tail, Vs will be higher ",
+    answer4: " Forward movement of the CG gives a reduced force at the tail, Vs will be higher",
+
+    correctAnswer: 1
+
   },
   {
     question: "Angle of incidence is: ",
