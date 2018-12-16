@@ -76,7 +76,7 @@ const questions = [
   },
   {
     question: "Dihedral of a wing is the angle between: ",
-    Answer1: "The wing plane and the lateral axis",
+    answer1: "The wing plane and the lateral axis",
     answer2: "The leading edge of the wing and the lateral axis ",
     answer3: "The quearter chord line of the wing and the vertical axis ",
     answer4: "The quarter chord line of the wing and the horizon ",
