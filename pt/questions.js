@@ -179,6 +179,18 @@ const questions = [
     answer4: "They become 1. 700% of previuous value 2. 1900% of previous value ",
 
     correctAnswer: 1
+
+
+  },
+  {
+
+ question: "What happens to DI(1) and CDI (2) as speed is increased from 100kts to 200kts ",
+    answer1: "They become 1. 400% of previuous value 2. 1600% of previous value ",
+    answer2: "They become 1. 25% of previuous value 2. 6.25% of previous value ",
+    answer3: "They become 1. 200% of previuous value 2. 1200% of previous value ",
+    answer4: "They become 1. 700% of previuous value 2. 1900% of previous value ",
+
+    correctAnswer: 2
   },
   {
     question: "Slots increase the stalling angle of attack by: ",
@@ -197,18 +209,49 @@ const questions = [
     answer4: "Delay wing root stalling ",
 
     correctAnswer: 2
+
   },
   {
-    question:
-      "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
+    question: "Whilst maintaining straight and level flight with a lift coefficient CL = 1 what will be the new approximate value of CL after the speed is increased by 40%?  ",
+    answer1: "0.51",
+    answer2: "0.27 ",
+    answer3: "0.005 ",
+    answer4: "0.47 ",
+
+    correctAnswer: 1
+  },
+  {
+
+    question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
     answer1: "90kt  ",
     answer2: "76kt ",
     answer3: "100kt ",
     answer4: "92kt ",
 
     correctAnswer: 2
+
   },
   {
+    question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
+    answer1: "IAS is higher at the higher altitude   ",
+    answer2: "IAS is lower at the higher altitude  ",
+    answer3: "IAS  at both altitudes is the same ",
+    answer4: "IAS is lower at lower altitude ",
+
+    correctAnswer: 3
+  },
+  {
+
+    question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
+    answer1: "1.8m",
+    answer2: "0.556m",
+    answer3: "1m",
+    answer4: "8m",
+
+    correctAnswer: 1
+  },
+  {
+
     question: "The boundary layer: ",
     answer1:
       "Is a layer on the wing in which the stream velocity is lower than the free stream velocity",
@@ -216,6 +259,34 @@ const questions = [
     answer3: "The normal shock wave at transonic speeds ",
     answer4: "A turbulent stream pattern around a the wing ",
 
+    correctAnswer: 1
+  },
+  {
+
+    question: "Which statement, about an aeroplane entering ground effect at constant angle of attack, is correct? 1. The lift coefficient, CL increases. 2. The induced drag coefficient, CDi increases",
+    answer1: "1 is correct, 2 is correct",
+    answer2: "1 is correct, 2 is incorrect ",
+    answer3: "1 is incorrect, 2 is correct  ",
+    answer4: "1 is incorrect, 2 is incorrect ",
+
+    correctAnswer:2
+},
+  {
+    question: "What of the following is true regarding stall? 1. A swept back wing will stall at the tip first, causing forward CP movement. 2, A swept forward wing will stall at the tip first, causing rearward CP movemnt",
+    answer1: "1 is true, 2 is false",
+    answer2: "1 is false, 2 is true ",
+    answer3: "1 is true, 2 is true  ",
+    answer4: "1 is false, 2 is false ",
+    
+    correctAnswer: 1
+},
+  {
+    question: "Climbing with a constant IAS, not taking compressibility effects into account, total drag will: ",
+    answer1: "Remain Constant",
+    answer2: "Decrease ",
+    answer3: "Increase  ",
+    answer4: "not change ",
+    
     correctAnswer: 1
   },
   {
