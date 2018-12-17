@@ -22,10 +22,10 @@ function printQuestion(reset) {
   qNum = chooseQuestion();
   questionNum = qNum;
   section.innerHTML = "<h3>" + questions[qNum].question + "</h3>";
-  createButtonAndAppend("button", questions[qNum].answer1, section, 1);
-  createButtonAndAppend("button", questions[qNum].answer2, section, 2);
   createButtonAndAppend("button", questions[qNum].answer3, section, 3);
+  createButtonAndAppend("button", questions[qNum].answer1, section, 1);
   createButtonAndAppend("button", questions[qNum].answer4, section, 4);
+  createButtonAndAppend("button", questions[qNum].answer2, section, 2);
 }
 
 function reset() {
