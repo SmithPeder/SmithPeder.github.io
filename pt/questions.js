@@ -222,7 +222,7 @@ const questions = [
   },
   {
 
-    Question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
+    question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
     answer1: "90kt  ",
     answer2: "76kt ",
     answer3: "100kt ",
@@ -233,7 +233,7 @@ const questions = [
   },
   {
 
-    Question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
+    question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
     answer1: "IAS is higher at the higher altitude   ",
     answer2: "IAS is lower at the higher altitude  ",
     answer3: "IAS  at both altitudes is the same ",
@@ -243,7 +243,7 @@ const questions = [
   },
   {
 
-    Question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
+    question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
     answer1: "1.8m   ",
     answer2: "0.556m  ",
     answer3: "1m ",
@@ -404,8 +404,6 @@ question: "Climbing with a constant IAS, not taking compressibility effects into
     answer4: "Downwash does not change ",
 
     correctAnswer: 2
- 
- 
   },
   {
     question: "Stall speed:",
