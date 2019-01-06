@@ -22,28 +22,10 @@ function printQuestion(reset) {
   qNum = chooseQuestion();
   questionNum = qNum;
   section.innerHTML = "<h3>" + questions[qNum].question + "</h3>";
-  const i = randBetween(1,4)
-  if(i==1) {
-    createButtonAndAppend("button", questions[qNum].answer1, section, 1);
-    createButtonAndAppend("button", questions[qNum].answer2, section, 2);
-    createButtonAndAppend("button", questions[qNum].answer3, section, 3);
-    createButtonAndAppend("button", questions[qNum].answer4, section, 4);
-  } else if(i==2) {
-    createButtonAndAppend("button", questions[qNum].answer4, section, 4);
-    createButtonAndAppend("button", questions[qNum].answer1, section, 1);
-    createButtonAndAppend("button", questions[qNum].answer3, section, 3);
-    createButtonAndAppend("button", questions[qNum].answer2, section, 2);
-  } else if(i==3) {
-    createButtonAndAppend("button", questions[qNum].answer3, section, 3);
-    createButtonAndAppend("button", questions[qNum].answer2, section, 2);
-    createButtonAndAppend("button", questions[qNum].answer4, section, 4);
-    createButtonAndAppend("button", questions[qNum].answer1, section, 1);
-  } else {
-    createButtonAndAppend("button", questions[qNum].answer4, section, 4);
-    createButtonAndAppend("button", questions[qNum].answer2, section, 2);
-    createButtonAndAppend("button", questions[qNum].answer3, section, 3);
-    createButtonAndAppend("button", questions[qNum].answer1, section, 1);
-  }
+  createButtonAndAppend("button", questions[qNum].answer1, section, 1);
+  createButtonAndAppend("button", questions[qNum].answer2, section, 2);
+  createButtonAndAppend("button", questions[qNum].answer3, section, 3);
+  createButtonAndAppend("button", questions[qNum].answer4, section, 4);
 }
 
 function reset() {
