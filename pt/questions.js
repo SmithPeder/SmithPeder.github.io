@@ -16,7 +16,7 @@ const questions = [
     answer3: "145 ",
     answer4: "160",
     correctAnswer: 2
- },
+  },
   {
     question:
       " For an asymmetrical aerofoil with zero degrees angle of attack and positive camber, the lift force is: ",
@@ -25,7 +25,6 @@ const questions = [
     answer3: "Equal ",
     answer4: "zero",
     correctAnswer: 1
-
   },
   {
     question: "How will CL change if IAS is increased from 100kt to 140kt?",
@@ -63,14 +62,17 @@ const questions = [
     answer4: "Tapered ",
 
     correctAnswer: 2
- },
+  },
   {
-    question:
-      "Which of the following statements are correct? ",
-    answer1: "Drag does not react in the same direction as the relative wind and lift perpendicular to it ",
-    answer2: "Drag acts in the same direction as the relative wind and lift perpendicular  ",
-    answer3: "Lift acts perpendicular to the horizontal and drag parallel in a rearwards direction ",
-    answer4: "Lift acts perpendicular to the horizontal and drag parallel in a forwards direction ",
+    question: "Which of the following statements are correct? ",
+    answer1:
+      "Drag does not react in the same direction as the relative wind and lift perpendicular to it ",
+    answer2:
+      "Drag acts in the same direction as the relative wind and lift perpendicular  ",
+    answer3:
+      "Lift acts perpendicular to the horizontal and drag parallel in a rearwards direction ",
+    answer4:
+      "Lift acts perpendicular to the horizontal and drag parallel in a forwards direction ",
 
     correctAnswer: 2
   },
@@ -91,17 +93,16 @@ const questions = [
     answer4: "Straight Wing, T - tail ",
 
     correctAnswer: 2
-
- },
+  },
   {
-    question: "What happens to the CP and lift on a symmetrical aerofoil when angle of attack is increased? ",
+    question:
+      "What happens to the CP and lift on a symmetrical aerofoil when angle of attack is increased? ",
     answer1: "The CP moves forward and lift increases",
     answer2: "The CP remains stationary and lift increases ",
     answer3: "The CP moves backwards and lift decreases ",
     answer4: "The CP remains stationary and lift decreases ",
 
     correctAnswer: 2
-
   },
   {
     question: "The relative thickness of an aerofoil is expressed in ",
@@ -171,24 +172,30 @@ const questions = [
     correctAnswer: 1
   },
   {
-
- question: "What happens to DI(1) and CDI (2) as speed is decreased from 200kts to 100kts ",
-    answer1: "They become 1. 400% of previuous value 2. 1600% of previous value ",
-    answer2: "They become 1. 600% of previuous value 2. 1800% of previous value ",
-    answer3: "They become 1. 200% of previuous value 2. 1200% of previous value ",
-    answer4: "They become 1. 700% of previuous value 2. 1900% of previous value ",
+    question:
+      "What happens to DI(1) and CDI (2) as speed is decreased from 200kts to 100kts ",
+    answer1:
+      "They become 1. 400% of previuous value 2. 1600% of previous value ",
+    answer2:
+      "They become 1. 600% of previuous value 2. 1800% of previous value ",
+    answer3:
+      "They become 1. 200% of previuous value 2. 1200% of previous value ",
+    answer4:
+      "They become 1. 700% of previuous value 2. 1900% of previous value ",
 
     correctAnswer: 1
-
-
   },
   {
-
- question: "What happens to DI(1) and CDI (2) as speed is increased from 100kts to 200kts ",
-    answer1: "They become 1. 400% of previuous value 2. 1600% of previous value ",
-    answer2: "They become 1. 25% of previuous value 2. 6.25% of previous value ",
-    answer3: "They become 1. 200% of previuous value 2. 1200% of previous value ",
-    answer4: "They become 1. 700% of previuous value 2. 1900% of previous value ",
+    question:
+      "What happens to DI(1) and CDI (2) as speed is increased from 100kts to 200kts ",
+    answer1:
+      "They become 1. 400% of previuous value 2. 1600% of previous value ",
+    answer2:
+      "They become 1. 25% of previuous value 2. 6.25% of previous value ",
+    answer3:
+      "They become 1. 200% of previuous value 2. 1200% of previous value ",
+    answer4:
+      "They become 1. 700% of previuous value 2. 1900% of previous value ",
 
     correctAnswer: 2
   },
@@ -209,10 +216,10 @@ const questions = [
     answer4: "Delay wing root stalling ",
 
     correctAnswer: 2
-
   },
   {
-    question: "Whilst maintaining straight and level flight with a lift coefficient CL = 1 what will be the new approximate value of CL after the speed is increased by 40%?  ",
+    question:
+      "Whilst maintaining straight and level flight with a lift coefficient CL = 1 what will be the new approximate value of CL after the speed is increased by 40%?  ",
     answer1: "0.51",
     answer2: "0.27 ",
     answer3: "0.005 ",
@@ -221,19 +228,18 @@ const questions = [
     correctAnswer: 1
   },
   {
-
-    question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
+    question:
+      "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
     answer1: "90kt  ",
     answer2: "76kt ",
     answer3: "100kt ",
     answer4: "92kt ",
 
     correctAnswer: 2
-
   },
   {
-
-    question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
+    question:
+      "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
     answer1: "IAS is higher at the higher altitude   ",
     answer2: "IAS is lower at the higher altitude  ",
     answer3: "IAS  at both altitudes is the same ",
@@ -242,17 +248,16 @@ const questions = [
     correctAnswer: 3
   },
   {
-
-    question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
+    question:
+      "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
     answer1: "1.8m   ",
     answer2: "0.556m  ",
     answer3: "1m ",
-    answer4: “8m",
+    answer4: "8m",
 
     correctAnswer: 1
   },
   {
-
     question: "The boundary layer: ",
     answer1:
       "Is a layer on the wing in which the stream velocity is lower than the free stream velocity",
@@ -261,35 +266,34 @@ const questions = [
     answer4: "A turbulent stream pattern around a the wing ",
 
     correctAnswer: 1
-
   },
   {
-
-    question: "Which statement, about an aeroplane entering ground effect at constant angle of attack, is correct? 1. The lift coefficient, CL increases. 2. The induced drag coefficient, CDi increases",
+    question:
+      "Which statement, about an aeroplane entering ground effect at constant angle of attack, is correct? 1. The lift coefficient, CL increases. 2. The induced drag coefficient, CDi increases",
     answer1: "1 is correct, 2 is correct",
     answer2: "1 is correct, 2 is incorrect ",
     answer3: "1 is incorrect, 2 is correct  ",
     answer4: "1 is incorrect, 2 is incorrect ",
 
-    correctAnswer:2
-},
+    correctAnswer: 2
+  },
   {
-question: "What of the following is true regarding stall? 1. A swept back wing will stall at the tip first, causing forward CP movement. 2, A swept forward wing will stall at the tip first, causing rearward CP movemnt",
+    question:
+      "What of the following is true regarding stall? 1. A swept back wing will stall at the tip first, causing forward CP movement. 2, A swept forward wing will stall at the tip first, causing rearward CP movemnt",
     answer1: "1 is true, 2 is false",
     answer2: "1 is false, 2 is true ",
     answer3: "1 is true, 2 is true  ",
     answer4: "1 is false, 2 is false ",
-     correctAnswer: 1
-
-
-},
+    correctAnswer: 1
+  },
   {
-question: "Climbing with a constant IAS, not taking compressibility effects into account, total drag will: ",
+    question:
+      "Climbing with a constant IAS, not taking compressibility effects into account, total drag will: ",
     answer1: "Remain Constant",
     answer2: "Decrease ",
     answer3: "Increase  ",
     answer4: "not change ",
-     correctAnswer: 1
+    correctAnswer: 1
   },
   {
     question:
@@ -319,28 +323,30 @@ question: "Climbing with a constant IAS, not taking compressibility effects into
     answer4: "Pdyn + 1/2 rho IAS = Constant ",
 
     correctAnswer: 2
-
- },
+  },
   {
-
- question: "Assuming zero thrust, the point on the diagram corresponding to the minimum glide angle is:: ",
+    question:
+      "Assuming zero thrust, the point on the diagram corresponding to the minimum glide angle is:: ",
     answer1: "Point 3",
     answer2: "Point 1 ",
     answer3: "Point 2 ",
     answer4: "Point 4",
 
     correctAnswer: 3
-
- },
+  },
   {
-    question: "What is correct about force at the tail and its effect on V(s) due to CG movement? ",
-    answer1: "Rearward movement of the CG gives a reduced down force at the tail, Vs will be reduced  ",
-    answer2: "Forward movement of the CG gives a reduced down force at the tail, Vs will be reduced",
-    answer3: "Rearward movement of the CG gives a reduced force at the tail, Vs will be higher ",
-    answer4: " Forward movement of the CG gives a reduced force at the tail, Vs will be higher",
+    question:
+      "What is correct about force at the tail and its effect on V(s) due to CG movement? ",
+    answer1:
+      "Rearward movement of the CG gives a reduced down force at the tail, Vs will be reduced  ",
+    answer2:
+      "Forward movement of the CG gives a reduced down force at the tail, Vs will be reduced",
+    answer3:
+      "Rearward movement of the CG gives a reduced force at the tail, Vs will be higher ",
+    answer4:
+      " Forward movement of the CG gives a reduced force at the tail, Vs will be higher",
 
     correctAnswer: 1
-
   },
   {
     question: "Angle of incidence is: ",
@@ -360,7 +366,8 @@ question: "Climbing with a constant IAS, not taking compressibility effects into
     correctAnswer: 2
   },
   {
- question: "The effect of ventral fin on the static stability of an aeroplane is as follows: 1. Longitudinal 2.lateral 3. Directional: ",
+    question:
+      "The effect of ventral fin on the static stability of an aeroplane is as follows: 1. Longitudinal 2.lateral 3. Directional: ",
     answer1: "1.No effect 2. Positive 3. Negative ",
     answer2: "1. Positive 2. Negative 3. Negative ",
     answer3: "1. Negative 2. Positive 3. Positive",
