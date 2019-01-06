@@ -222,7 +222,7 @@ const questions = [
   },
   {
 
-    question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
+    Question: "An aeroplane has a clean stall speed of 83kt at a mass of 8100kg. What is the stall speed at 6800kg ",
     answer1: "90kt  ",
     answer2: "76kt ",
     answer3: "100kt ",
@@ -232,7 +232,8 @@ const questions = [
 
   },
   {
-    question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
+
+    Question: "Assuming ISA conditions and no compressibility effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the ",
     answer1: "IAS is higher at the higher altitude   ",
     answer2: "IAS is lower at the higher altitude  ",
     answer3: "IAS  at both altitudes is the same ",
@@ -242,11 +243,11 @@ const questions = [
   },
   {
 
-    question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
-    answer1: "1.8m",
-    answer2: "0.556m",
-    answer3: "1m",
-    answer4: "8m",
+    Question: "A wing has a span of 10 metres and an area of 18 square meters. The mean chord is: ",
+    answer1: "1.8m   ",
+    answer2: "0.556m  ",
+    answer3: "1m ",
+    answer4: “8m",
 
     correctAnswer: 1
   },
@@ -260,6 +261,7 @@ const questions = [
     answer4: "A turbulent stream pattern around a the wing ",
 
     correctAnswer: 1
+
   },
   {
 
@@ -272,22 +274,22 @@ const questions = [
     correctAnswer:2
 },
   {
-    question: "What of the following is true regarding stall? 1. A swept back wing will stall at the tip first, causing forward CP movement. 2, A swept forward wing will stall at the tip first, causing rearward CP movemnt",
+question: "What of the following is true regarding stall? 1. A swept back wing will stall at the tip first, causing forward CP movement. 2, A swept forward wing will stall at the tip first, causing rearward CP movemnt",
     answer1: "1 is true, 2 is false",
     answer2: "1 is false, 2 is true ",
     answer3: "1 is true, 2 is true  ",
     answer4: "1 is false, 2 is false ",
-    
-    correctAnswer: 1
+     correctAnswer: 1
+
+
 },
   {
-    question: "Climbing with a constant IAS, not taking compressibility effects into account, total drag will: ",
+question: "Climbing with a constant IAS, not taking compressibility effects into account, total drag will: ",
     answer1: "Remain Constant",
     answer2: "Decrease ",
     answer3: "Increase  ",
     answer4: "not change ",
-    
-    correctAnswer: 1
+     correctAnswer: 1
   },
   {
     question:
@@ -320,6 +322,17 @@ const questions = [
 
  },
   {
+
+ question: "Assuming zero thrust, the point on the diagram corresponding to the minimum glide angle is:: ",
+    answer1: "Point 3",
+    answer2: "Point 1 ",
+    answer3: "Point 2 ",
+    answer4: "Point 4",
+
+    correctAnswer: 3
+
+ },
+  {
     question: "What is correct about force at the tail and its effect on V(s) due to CG movement? ",
     answer1: "Rearward movement of the CG gives a reduced down force at the tail, Vs will be reduced  ",
     answer2: "Forward movement of the CG gives a reduced down force at the tail, Vs will be reduced",
@@ -345,6 +358,15 @@ const questions = [
     answer4: "Increase the manoeuvrability ",
 
     correctAnswer: 2
+  },
+  {
+ question: "The effect of ventral fin on the static stability of an aeroplane is as follows: 1. Longitudinal 2.lateral 3. Directional: ",
+    answer1: "1.No effect 2. Positive 3. Negative ",
+    answer2: "1. Positive 2. Negative 3. Negative ",
+    answer3: "1. Negative 2. Positive 3. Positive",
+    answer4: "1. No effect 2. Negative 3. Positive ",
+
+    correctAnswer: 4
   },
   {
     question: "What will happen on entering ground effect? ",
