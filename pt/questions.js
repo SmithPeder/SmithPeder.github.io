@@ -472,16 +472,6 @@ const questions = [
   },
   {
     question:
-      "Which statements, about an aeroplane entering ground effect at constant angle of attack are correct or incorrect?",
-    answer1: "1. Is incorrect 2. Is correct",
-    answer2: "1. Is correct 2. Is incorrect",
-    answer3: "1. Is incorrect 2. Is incorrect",
-    answer4: "1. Is correct 2. Is correct",
-
-    correctAnswer: 2
-  },
-  {
-    question:
       "Which of the following flaps systems will give the largest increase in CL?",
     answer1: "Plain Flap ",
     answer2: "Fowler flap ",
