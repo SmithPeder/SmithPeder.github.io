@@ -326,13 +326,23 @@ const questions = [
   },
   {
     question:
-      "Assuming zero thrust, the point on the diagram corresponding to the minimum glide angle is:: ",
+      "Assuming zero thrust, the point on the diagram corresponding to the minimum glide angle is: ",
     answer1: "Point 3",
     answer2: "Point 1 ",
     answer3: "Point 2 ",
     answer4: "Point 4",
 
     correctAnswer: 3
+  },
+  {
+    question:
+      "Assuming ISA condtions and no compressibility effects, if an aerplane maintains straight and level flight at the same angle of attack at different altitudes, the: ",
+    answer1: "TAS at both altitudes is the same",
+    answer2: "TAS is higher at the lower altitude ",
+    answer3: "IAS is higher at the lower altitude ",
+    answer4: "TAS is higher at the higher altitude",
+
+    correctAnswer: 4
   },
   {
     question:
@@ -376,6 +386,17 @@ const questions = [
     correctAnswer: 4
   },
   {
+    question:
+      "The maximum glide range of an aircraft  will depend on wind and: ",
+    answer1:
+      "The ratio to lift drag which varies according to angle of attack ",
+    answer2: "Speed for minimum power required",
+    answer3: "CLmax",
+    answer4: "Minimum lift/drag ratio",
+
+    correctAnswer: 1
+  },
+  {
     question: "What will happen on entering ground effect? ",
     answer1: "The effective angle of attack is decreased ",
     answer2: "The induced angle of attack is increased ",
@@ -383,6 +404,15 @@ const questions = [
     answer4: "Drag and lift are both reduced ",
 
     correctAnswer: 3
+  },
+  {
+    question: "Static lateral stability will be increased by: ",
+    answer1: "Reducing wing anhedral",
+    answer2: "Reducing wing sweepback",
+    answer3: "Reducing the size of the vertical tail",
+    answer4: "The use of a low than high, wing mounting",
+
+    correctAnswer: 1
   },
   {
     question:
@@ -413,6 +443,15 @@ const questions = [
     correctAnswer: 2
   },
   {
+    question: "The purpose of a dorsal fin is to: ",
+    answer1: "Provide pitch and yaw control",
+    answer2: "Maintain static directional stability at large sideslip angles",
+    answer3: "Reduce tendency for spiral instability",
+    answer4: "Stabilise forebody vortices ",
+
+    correctAnswer: 2
+  },
+  {
     question: "Stall speed:",
     answer1: "Increases with the length of the wingspan ",
     answer2: "Decreases with an increased weight ",
@@ -423,6 +462,26 @@ const questions = [
   },
   {
     question:
+      "At a true airspeed for 300kts and in 45 degree bank level turn, the radius of turn would be (assume a value of 10m/sec^2 for g):",
+    answer1: "2381m",
+    answer2: "4743m",
+    answer3: "3354m",
+    answer4: "23780m",
+
+    correctAnswer: 1
+  },
+  {
+    question:
+      "Which statements, about an aeroplane entering ground effect at constant angle of attack are correct or incorrect?",
+    answer1: "1. Is incorrect 2. Is correct",
+    answer2: "1. Is correct 2. Is incorrect",
+    answer3: "1. Is incorrect 2. Is incorrect",
+    answer4: "1. Is correct 2. Is correct",
+
+    correctAnswer: 2
+  },
+  {
+    question:
       "Which of the following flaps systems will give the largest increase in CL?",
     answer1: "Plain Flap ",
     answer2: "Fowler flap ",
@@ -430,6 +489,17 @@ const questions = [
     answer4: "Single slotted flap ",
 
     correctAnswer: 2
+  },
+  {
+    question: "During a short period oscillation, the altitude:",
+    answer1:
+      "Varies significantly, whereas during a phugoid it remains approximately constant ",
+    answer2: "Varies significantly, as it does during a phugoid",
+    answer3:
+      "Remains approximately constant, wheras during a phugoid it varies significantly",
+    answer4: "Remains approximately constant, as it does during a phugoid",
+
+    correctAnswer: 3
   },
   {
     question: "What can be seen in the polar curve?",
