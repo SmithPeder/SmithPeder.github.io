@@ -19,6 +19,24 @@ const questions = [
   },
   {
     question:
+      "An aicraft whose weight is 403 082N stalls at 172kts. At a weight of 237 402N. It would stall at: ",
+    answer1: "132  ",
+    answer2: "139",
+    answer3: "224 ",
+    answer4: "71",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "If IAS is decreased in level flight from 120kts to 60kt, what would be the effect on (i) C(DI) and (ii) D(I)?",
+    answer1: "(i) 1/16 (ii) 1/4 ",
+    answer2: "(i) 16 (ii) 4",
+    answer3: "(i) 4 (ii) 16  ",
+    answer4: "(i) ¼ (ii) 1/16",
+    correctAnswer: 2
+  },
+  {
+    question:
       " For an asymmetrical aerofoil with zero degrees angle of attack and positive camber, the lift force is: ",
     answer1: "Positive ",
     answer2: "Negative ",
@@ -45,12 +63,131 @@ const questions = [
   },
   {
     question:
+      "Which one of the modifications given below reduces stall speed? ",
+    answer1: "Increasing Sweepback ",
+    answer2: "Moving the CG forwards",
+    answer3: "Retract trailing fowler flaps",
+    answer4: "Decreasing Sweeback",
+    correctAnswer: 4
+  },
+  {
+    question:
+      "Bernoullis equation can be written as: (pt = total pressure, ps= static pressure, q= dynamic pressure) ",
+    answer1: "Pt + ps = q  ",
+    answer2: "Pt - ps = q",
+    answer3: "Ps + q = ps ",
+    answer4: "Pt - q = ps",
+    correctAnswer: 4
+  },
+  {
+    question:
+      "Which one of the following statements about the lift-to-drag ratio in straight and level flight is correct?",
+    answer1:
+      "The highest value of the lift/drag ratio is reached when the lift is zero  ",
+    answer2:
+      "At the highest value of the lift/drag ratio, the total drag is the lowest",
+    answer3:
+      "At the lowest value of the lift/drag ratio, the total drag is the lowest",
+    answer4:
+      "The highest value of the lift/Drag ratio is reached when the lift is postive",
+    correctAnswer: 2
+  },
+  {
+    question:
+      "When fowler type trailing ede flaps are extended at a constant angle of attack, the following changes will occur: ",
+    answer1: "CL and CD increase",
+    answer2: "CL and CD decrease",
+    answer3: "CL increases and the centre of pressure moves forward ",
+    answer4: "CL decreases and the centre of pressure moves forward",
+    correctAnswer: 1
+  },
+  {
+    question:
       "Minimum drag of an aeroplane in straight and level flight occurs at the ",
     answer1: "Maximum CL/CD ratio   ",
     answer2: "Minimum Speed ",
     answer3: "Minimum CD value ",
     answer4: "Minimum Angle of Attack ",
 
+    correctAnswer: 1
+  },
+  {
+    question:
+      "When considering the properties of a laminar and turbulent boundary layer, which of the following statements is correct?",
+    answer1: "Friction drag is higher in laminar boundary layer",
+    answer2: "Friction drag is lower in turbulent boundary layer",
+    answer3: "Friction drag is higer in turbulent boundary layer ",
+    answer4: "Friction drag is the same",
+    correctAnswer: 3
+  },
+  {
+    question: "An aeroplane leaving the ground effect will:",
+    answer1: "Experience an increase in induced drag and require more thrust",
+    answer2:
+      "Require a lower angle of attack to maintain the same lift coefficient",
+    answer3: "Experience an decrease in induced drag ",
+    answer4:
+      "Require a higher angle of attack to maintain the same lift coefficient",
+    correctAnswer: 1
+  },
+  {
+    question:
+      "Assuming ISA condtions and no compressiblity effects, if an aeroplane maintains straight and level flight at the same angle of attack at two different altitudes, the:",
+    answer1: "IAS and TAS are both higher at the lower altitude",
+    answer2: "TAS is lower and IAS is higher at lower altitude",
+    answer3: "TAS is lower at the lower altitude but the IAS will be the same",
+    answer4: "IAS is higher and TAS is lower at higher altitude",
+    correctAnswer: 3
+  },
+  {
+    question: "The greatest factor causing lift is:",
+    answer1: "Decreased static pressure above the wing",
+    answer2: "Increased airflow velocity below the wing",
+    answer3: "Increased airflow velocity above the wing",
+    answer4: "Decreased airflow velocity below the wing",
+    correctAnswer: 1
+  },
+  {
+    question: "The difference between IAS and TAS will:",
+    answer1: "Increase with increasing air density",
+    answer2: "Decrease with increasing speed",
+    answer3: "Increase with decreasing temperature",
+    answer4: "Decrease with decreasing altitude",
+    correctAnswer: 4
+  },
+  {
+    question: "The SI unit of measurement for density is:",
+    answer1: "psi",
+    answer2: "bar",
+    answer3: "kg/m^3",
+    answer4: "kg/cm^3",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "A wing has a span of 64 metres and an area of 500 square meters. The mean chord is:",
+    answer1: "8.2m",
+    answer2: "7.8m",
+    answer3: "5.0m ",
+    answer4: "3.4m",
+    correctAnswer: 2
+  },
+  {
+    question: "As the camber of an aerofoil section is increased:",
+    answer1: "Static pressure over the upper surface is increased",
+    answer2:
+      "Static pressure over the upper surface remains constant for any camber",
+    answer3: "static pressure over the upper surface is decreased",
+    answer4: "Velocity of the airflow is decreased",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "On an aerofoil, where does the flow separation first start at high angles of attack?",
+    answer1: "Upper side, aft",
+    answer2: "Lower side, aft",
+    answer3: "Flow separation is not present ",
+    answer4: "lower side, fwd",
     correctAnswer: 1
   },
   {
