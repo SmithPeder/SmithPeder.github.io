@@ -1,4 +1,4 @@
-const questions = [
+dconst questions = [
   {
     question:
       "An aircraft with 100kts of Vs (level flight) turns with a bank angle of 45 degrees. Calculate the new Vs",
@@ -655,5 +655,117 @@ const questions = [
     answer4: "(I) 4 (II) 2 ",
 
     correctAnswer: 2
+  },
+  {
+    question: "Extending trailing edge flaps in a headwind will:",
+    answer1: "Increase gliding distance for the first 10- 15 degrees",
+    answer2: "greater than 1000ft visibility, no icing",
+    answer3: "greater than 1000m visibility, icing",
+    answer4: "greater than 1000ft visibility, icing",
+    correctAnswer: 1
+  },
+  {
+    question: "The purpose of vortex generators is:",
+    answer1: "To de energise the boundary layer",
+    answer2: "prevent tip stalling on a swept wing",
+    answer3: "to reduce the severity of shock induced airflow separation",
+    answer4: "Prevent spanwise flow",
+    correctAnswer: 3
+  },
+  {
+    question: "What happens to stalling speed at a constant IAS in climb?",
+    answer1: "Initially constant then decreasse at high altitude",
+    answer2: "initially constant then increase at high atitude",
+    answer3: "increase",
+    answer4: "constant",
+    correctAnswer: 2
+  },
+  {
+    question: "Which of the following statemtns about the spin is correct?",
+    answer1:
+      "Every aeroplane should be designed so that it can never enter a spin",
+    answer2: "in the spin, airspeed continuously increases",
+    answer3:
+      "during a spin recovery the ailerons should be kept in the neutral position",
+    answer4:
+      "An aeroplane is prone to spin when the stall starts at the wing root",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "What will most likely happen to the pitch moment with a trailing edge flap deflection (low placed main wing and T-tail",
+    answer1: "Nose down",
+    answer2: "Depends on C/G",
+    answer3: "Nose up",
+    answer4: "No effect",
+    correctAnswer: 1
+  },
+  {
+    question: "About vortex generators",
+    answer1: "They enchance the laminar boundary layer",
+    answer2: "They are commonly used instead of winglets, to delay tip stall",
+    answer3:
+      "They take energy from the free stream air flow into the boundary layer",
+    answer4: "They always reduce drag",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "An aeroplane performs a continuous descent with 160kt IAS AND 1000'/min vertical speed. In this condition:",
+    answer1: "lift is equal to weight",
+    answer2:
+      "drag is less than the combined forces that move the aeroplane forward",
+    answer3: "lift is greater than weight",
+    answer4: "weight is greater than lift",
+    correctAnswer: 4
+  },
+  {
+    question: "A flapper switch is a stall warning device:",
+    answer1:
+      "that always points into the relative wind, rotating relative to the fuselage and hence giving an indication on AoA.",
+    answer2: "that starts making a sound after the aircraft has stalled.",
+    answer3:
+      "that is triggered by downward movement of stagnation point during increasing AoA.",
+    answer4:
+      "that is triggered by upward movement of stagnation point during increasing AoA.",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "When extending trailing edge flaps on an airplane with wings mounted low and T-tail, what moment will you get and why?",
+    answer1: "Pitch up due to movement of CP",
+    answer2: "Pitch down due to downwash",
+    answer3: "pitch up due to downwash",
+    answer4: "Pitch down due to movement of Centre of Pressure (CP)",
+    correctAnswer: 4
+  },
+  {
+    question: "A slat will:",
+    answer1:
+      "Allways increase the camber of the aerofoil and divert the flow around the sharp leading edge",
+    answer2:
+      "Increase the boundary layer energy and delays the stall to a higher angle of attack",
+    answer3:
+      "Increase the lift by increasing the wing area and the camber on the aft portion of the wing",
+    answer4: "Provide a boundary layer suction on the upper side of the wing",
+    correctAnswer: 2
+  },
+  {
+    question: "Slots increase the stalling angle of attack by:",
+    answer1: "reducing the effective angle of attack.",
+    answer2: "reducing the span-wise flow.",
+    answer3: "delaying separation.",
+    answer4: "increasing leading edge camber",
+    correctAnswer: 3
+  },
+  {
+    question: "What is true about deployment of slats / Krueger flaps?",
+    answer1: "Slats form a slot, Krueger flaps do not.",
+    answer2: "Krueger flaps form a slot, slats do not.",
+    answer3:
+      "Krueger flaps increase the critical angle of attack, slats do not.",
+    answer4:
+      "Slats increase the critical angle of attack, Krueger flaps do not.",
+    correctAnswer: 1
   }
 ];
