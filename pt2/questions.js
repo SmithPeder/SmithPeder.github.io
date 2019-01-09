@@ -564,5 +564,48 @@ const questions = [
     answer3: "2000ft",
     answer4: "1500ft",
     correctAnswer: 2
-  }
+  },
+  {
+    question: "A ravine wind blows",
+    answer1: "more strongly around a headland",
+    answer2: "Along a narrow valley",
+    answer3: "Down the side of ravine",
+    answer4: "up the side of ravine",
+    correctAnswer: 2
+  },
+  {
+    question: "What type of cloud is usually found at high level?",
+    answer1: "Ns",
+    answer2: "St",
+    answer3: "Ac",
+    answer4: "Cc",
+    correctAnswer: 4
+  },
+  {
+    question: "A vertical windshear is:",
+    answer1: "Only present in a CB",
+    answer2:
+      "A change of horizontal wind direction and/or speed with horizontal distance",
+    answer3: "A change of vertical wind direction and/or speed",
+    answer4:
+      "A change of horizontal wind direction and/or speed with change in level",
+    correctAnswer: 4
+  },
+  {
+    question: "A cause of radiation fog is:",
+    answer1: "a marked increase in ground wind speed",
+    answer2: "a marked increase in wind speed close to the ground",
+    answer3: "warm air moving over warm surface",
+    answer4: "Ground cooling due to radiation",
+    correctAnswer: 4
+  },
+  {
+    question: "Flying conditions and horizontal visibility in Ci cloud are:",
+    answer1: "greater than 1000m visibility, no icing",
+    answer2: "greater than 1000ft visibility, no icing",
+    answer3: "greater than 1000m visibility, icing",
+    answer4: "greater than 1000ft visibility, icing",
+    correctAnswer: 1
+  },
+  {}
 ];
