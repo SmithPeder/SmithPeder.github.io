@@ -1,4 +1,4 @@
-dconst questions = [
+const questions = [
   {
     question:
       "An aircraft with 100kts of Vs (level flight) turns with a bank angle of 45 degrees. Calculate the new Vs",
