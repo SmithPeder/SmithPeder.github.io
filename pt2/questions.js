@@ -607,5 +607,4 @@ const questions = [
     answer4: "greater than 1000ft visibility, icing",
     correctAnswer: 1
   },
-  {}
 ];
