@@ -241,7 +241,7 @@ const questions = [
       "the fohn wind is a warm moist wind down the lee slope of a mountain",
     answer4:
       "The anabatic wind can occur by both day and night in a snow covered enviroment",
-    correctAnswer: 4
+    correctAnswer: 2
   },
   {
     question: "A fohn wind is:",
@@ -251,5 +251,126 @@ const questions = [
     answer4: "a warm dry downflow on the downwind side of a mountain range",
     correctAnswer: 4
   },
-  {}
+  {
+    question:
+      "Which of the following statements is true concerning orographic fog?",
+    answer1: "It developes slowly and dissipates rapidly",
+    answer2: "It may be formed by day as well as by night",
+    answer3: "it is formed when the air is unstable",
+    answer4: "it forms suddenly by day but not by night",
+    correctAnswer: 2
+  },
+  {
+    question:
+      "The degree of clear air turbulence experience by an aircrat is proportional",
+    answer1: "stabilty of the air",
+    answer2: "intensity of the solar radiation",
+    answer3: "height of the aircraft",
+    answer4: "intensity of vertical and horizontal wind shear",
+    correctAnswer: 4
+  },
+  {
+    question: "Convective clouds are formed",
+    answer1: "In mid latitudes only",
+    answer2: "in a stable layer of air",
+    answer3: "in an unstable air mass",
+    answer4: "in summer during the day only",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "What type of cloud is being described? A generally grey cloud layer with fairly uniform base and uniform appearence, which may give drizzle or snow grains. When the sun is visible through the cloud, the outline is clearly discernible. Sometimes it appears in the form of ragged pathes",
+    answer1: "Ns",
+    answer2: "AS",
+    answer3: "CS",
+    answer4: "ST",
+    correctAnswer: 4
+  },
+  {
+    question:
+      "What type of cloud is being described? A generally grey cloud layer with fairly uniform base and uniform appearence, which may give drizzle or snow grains. When the sun is visible through the cloud, the outline is clearly discernible. Sometimes it appears in the form of ragged pathes",
+    answer1: "Ns",
+    answer2: "AS",
+    answer3: "CS",
+    answer4: "ST",
+    correctAnswer: 4
+  },
+  {
+    question:
+      "Which cloud type (genus) is described by the following definition? Cumulus clouds which are markedly spouting and are often of great vertical extent; their bulging upper part frequently resembles a cauliflower",
+    answer1: "Cumulonimbus Capillatus",
+    answer2: "Cumulus humilis",
+    answer3: "Cumulus fractus",
+    answer4: "Towering Cumulus",
+    correctAnswer: 4
+  },
+  {
+    question:
+      "If radiation fog forms on a clear night with light winds, the increase in wind speed from 5kt to 13kt will most likely",
+    answer1: "disperse the fog immediately",
+    answer2: "chane the radiation fog to advection fog",
+    answer3: "cause the fog to lift and become low stratus",
+    answer4: "no effect",
+    correctAnswer: 3
+  },
+  {
+    question: "Convective clouds are formed",
+    answer1: "In mid latitudes only",
+    answer2: "in a stable layer of air",
+    answer3: "in an unstable air mass",
+    answer4: "in summer during the day only",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "What are the conditions under which advection fog will be formed?",
+    answer1: "Cold moist air over a warm surface",
+    answer2: "warm dry air over a cold surface",
+    answer3: "Warm moist air over a cold surface",
+    answer4: "Cold dry air over a warm surface",
+    correctAnswer: 3
+  },
+  {
+    question: "Steaming fog (arctic smoke) is produced by:",
+    answer1: "Warm air over land",
+    answer2: "Cold sea near a coast",
+    answer3: "Cold air over a warm sea",
+    answer4: "Warm air over a cold sea",
+    correctAnswer: 3
+  },
+  {
+    question: "The geostrophic wind",
+    answer1:
+      "Blows parallel to straight isobars and its speed as isobar spacing increases",
+    answer2: "blows from high to low pressure",
+    answer3:
+      "results from a balance between pressure gradient and geostrophic force",
+    answer4: "blows parallel to curved isobars, low pressure to the left",
+    correctAnswer: 3
+  },
+  {
+    question:
+      "The deflection of the surface wind from the geostrophic wind direction is, approximately",
+    answer1: "20 degree over the land by day - in cloudy conditions",
+    answer2: "30 degrees over the sea",
+    answer3: "10 degrees over the sea - veered in the southern hemisphere",
+    answer4: "15 degrees over the land by night - in cloudy conditions",
+    correctAnswer: 3
+  },
+  {
+    question: "Which cloud produce showers?",
+    answer1: "CB",
+    answer2: "CS",
+    answer3: "NS",
+    answer4: "CS",
+    correctAnswer: 2
+  },
+  {
+    question: "Convective clouds are formed",
+    answer1: "In mid latitudes only",
+    answer2: "in a stable layer of air",
+    answer3: "in an unstable air mass",
+    answer4: "in summer during the day only",
+    correctAnswer: 3
+  }
 ];
