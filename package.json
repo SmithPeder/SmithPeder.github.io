@@ -1,6 +1,6 @@
 {
   "name": "smithpeder.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal landingpage",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/SmithPeder/SmithPeder.github.io.git"
   },
-  "keywords": ["homepage", "landingpage"],
+  "keywords": [
+    "homepage",
+    "landingpage"
+  ],
   "author": "Peder Smith",
   "license": "ISC",
   "dependencies": {
@@ -24,15 +27,15 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "react": "^0.13.3",
-    "react-scripts": "1.1.4",
     "babel-core": "^5.2.17",
     "babel-loader": "^5.0.0",
-    "style-loader": "^0.12.3",
     "css-loader": "^0.15.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^0.13.3",
+    "react-scripts": "1.1.4",
+    "style-loader": "^0.12.3",
     "webpack": "^1.9.10",
-    "webpack-dev-server": "^1.9.0",
-    "html-webpack-plugin": "^2.30.1"
+    "webpack-dev-server": "^3.2.1"
   },
   "bugs": {
     "url": "https://github.com/SmithPeder/SmithPeder.github.io/issues"
