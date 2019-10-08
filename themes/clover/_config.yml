@@ -1,0 +1,33 @@
+# Custom nav
+nav:
+  title: "MatBlogg"
+
+favicon: "favicon.ico"
+
+# Custom background
+background:
+  color: "#eee"
+  image: ""
+
+menu:
+  Archive: /archives
+
+# Specific default categories or tags of home page.
+# Post which belongs to `category` or `tag` and don't belongs to `except_category` or `except_tag` will be filtered.
+home:
+
+card_style:
+  home: project-card
+  archive: article-card
+  tag: article-card
+  category: article-card
+
+# category page
+category_generator:
+  category_per_page: 3
+  post_per_category: 3
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
