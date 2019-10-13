@@ -11,6 +11,7 @@ background:
 
 menu:
   Archive: /archives
+  Days: /categories
 
 # Specific default categories or tags of home page.
 # Post which belongs to `category` or `tag` and don't belongs to `except_category` or `except_tag` will be filtered.
