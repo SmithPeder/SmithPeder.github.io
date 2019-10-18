@@ -16,18 +16,18 @@
       return result.concat({
         posts: _.orderBy(posts, function (post) {
           return post.date;
-        }, 'desc'),
+        }, 'asc'),
         category: category,
       })
     }, []);
-    groupPosts = _.orderBy(groupPosts, 'category', 'asc');
+  groupPosts = _.orderBy(groupPosts, 'category');
   %>
   <section class="archive">
     <% _.forEach(groupPosts, function (group) { %>
       <section class="archive-category">
         <h1 class="title"><%= group.category === CLOVER_OTHERS ? __('other_category') : moment(group.category).format("dddd MMM Do") %></h1>
         <ul class="menu">
-          <% _.forEach(_.reverse(group.posts), function(item) { %>
+          <% _.forEach(group.posts, function(item) { %>
             <li>
               <a href="<%- url_for(item.path) %>"><%= item.title %></a>
               <span class="date"><%- date(item.date, 'HH:mm:ss') %></span>

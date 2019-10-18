@@ -10,7 +10,6 @@ background:
   image: ""
 
 menu:
-  Archive: /archives
   Days: /categories
 
 # Specific default categories or tags of home page.
@@ -25,8 +24,8 @@ card_style:
 
 # category page
 category_generator:
-  category_per_page: 3
-  post_per_category: 3
+  category_per_page: 10
+  post_per_category: 10
 
 node_sass:
   outputStyle: nested
